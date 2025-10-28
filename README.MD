@@ -1,7 +1,7 @@
 # 📘 Math Repository
 
 This repository contains a growing collection of mathematics-related Python
-scripts and \LaTeX{} notes. Content is organized by topic so you can easily
+scripts and \LaTeX{} notes. Content is organized by topic, allowing you to easily
 explore concepts or add new material.
 
 ## Contributors
