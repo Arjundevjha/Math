@@ -70,9 +70,14 @@ the repository.
 - [x] `Number_Theory/`
   - [x] `partitions.py`
   - [x] `prime_factorisation.py`
-  - [ ] `gcd.py`
-  - [ ] `lcm.py`
-  - [ ] `mod_arithmetic.py`
+  - [x] `gcd.py`
+  - [x] `lcm.py`
+  - [ ] `Modulo_Arithmatic/`
+    - [ ] `modular_exponentiation.py`
+    - [ ] `chinese_remainder_theorem.py`
+    - [ ] `fermat_little_theorem.py`
+    - [ ] `euclids_algorithm.py`
+    - [ ] `eulers_totient_function.py`
 - [ ] `Set_Theory/`
   - [ ] `union_intersection.py`
   - [ ] `venn_diagram.tex`
