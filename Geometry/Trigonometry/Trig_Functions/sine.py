@@ -1,6 +1,6 @@
 import sys as s
 s.path.append("../..")
-from Numerical_Methods.Factorial.factorial import factorial
+from Numerical_Methods.Functions.Factorial.factorial import Factorial
 from Numerical_Methods.Constants.Pi_Algorithms.Machin_algo import MachinAlgorithm
 
 def Sine(radians): 
@@ -9,9 +9,9 @@ def Sine(radians):
         
     for idx in range(1,100,2):
         if sign % 2 == 0:   
-            sine += radians**idx/factorial(idx)
+            sine += radians**idx/Factorial.factorial(idx)
         else:
-            sine -= radians**idx/factorial(idx)
+            sine -= radians**idx/Factorial.factorial(idx)
         sign += 1 
     
     return sine 

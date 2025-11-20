@@ -2,7 +2,7 @@
 import sys
 sys.path.append("../..")
 
-from Numerical_Methods.Factorial.factorial import factorial
+from Numerical_Methods.Functions.Factorial.factorial import Factorial
 class TrinomialTheorem:
     """
     Class to calculate the general term in the trinomial expansion of (a + b + c)^n.
@@ -19,10 +19,10 @@ class TrinomialTheorem:
         k = n - i - j
         if k < 0:
             raise ValueError("Invalid value for k.")
-        n_factorial = factorial(n)
-        i_factorial = factorial(i)
-        j_factorial = factorial(j)
-        k_factorial = factorial(k)
+        n_factorial = Factorial.factorial(n)
+        i_factorial = Factorial.factorial(i)
+        j_factorial = Factorial.factorial(j)
+        k_factorial = Factorial.factorial(k)
         return (n_factorial // (i_factorial * j_factorial * k_factorial)) * (a ** i) * (b ** j) * (c ** k)
 
 if __name__ == "__main__":

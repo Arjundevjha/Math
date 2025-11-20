@@ -45,6 +45,11 @@ the repository.
   - [x] `chain_rule.py`
   - [x] `quotient_rule.py`
   - [x] `second_derivatives.py`
+  - [ ] `implicit_differentiation.py`
+- [ ] `Applications_of_Derivatives/`
+  - [ ] `curve_sketching.py`
+  - [ ] `optimization_problems.py`
+  - [ ] `related_rates.py`
 - [x] `Integration/`
   - [x] `NumIntegration.py`
   - [x] `TrigIntegration.py`
@@ -78,6 +83,17 @@ the repository.
     - [ ] `fermat_little_theorem.py`
     - [ ] `euclids_algorithm.py`
     - [ ] `eulers_totient_function.py`
+  - [ ] `Sequences_and_Series/`
+    - [ ] `arithmetic_sequence.py`
+    - [ ] `geometric_sequence.py`
+    - [ ] `arithmetic_series.py`
+    - [ ] `geometric_series.py`
+    - [ ] `fibonacci_sequence.py`
+  -[ ] `Inequalities/`
+    - [ ] `linear_inequalities.py`
+    - [ ] `quadratic_inequalities.py`
+    - [ ] `absolute_value_inequalities.py`
+    - [ ] `cauchy_schwarz_inequality.tex`
 - [ ] `Set_Theory/`
   - [ ] `union_intersection.py`
   - [ ] `venn_diagram.tex`

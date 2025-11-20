@@ -1,6 +1,6 @@
 import sys as s
 s.path.append("../..")
-from Numerical_Methods.Factorial.factorial import factorial
+from Numerical_Methods.Functions.Factorial.factorial import Factorial
 from Numerical_Methods.Constants.Pi_Algorithms.Machin_algo import MachinAlgorithm
 
 def Cosine(radians):
@@ -9,9 +9,9 @@ def Cosine(radians):
     
     for idx in range(2,100,2):
         if sign % 2 == 0:
-            cos += radians**idx/factorial(idx)
+            cos += radians**idx/Factorial.factorial(idx)
         else:
-            cos -= radians**idx/factorial(idx)
+            cos -= radians**idx/Factorial.factorial(idx)
         sign += 1 
     
     return cos 

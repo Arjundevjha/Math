@@ -1,7 +1,7 @@
 import sys
 from unicodedata import decimal
 sys.path.append("../..")
-from Numerical_Methods.Factorial.factorial import factorial
+from Numerical_Methods.Functions.Factorial.factorial import Factorial
 from decimal import Decimal, getcontext
 #class of eulers number for a set number of iterations and decimal places
 class EulersNumber:
@@ -14,7 +14,7 @@ class EulersNumber:
         e = Decimal(0)
         getcontext().prec = self.decimal_places
         for n in range(self.iterations):
-            e += Decimal(1) / Decimal(factorial(n))
+            e += Decimal(1) / Decimal(Factorial.factorial(n))
         return e
 if __name__ == "__main__":
     euler_number_calculator = EulersNumber()
