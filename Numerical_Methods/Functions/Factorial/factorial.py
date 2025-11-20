@@ -20,15 +20,6 @@ class Factorial:
         return self.factorial(num)
 
 
-def factorial(num: int) -> int:
-    """Backward-compatible function that delegates to Factorial.factorial.
-
-    Files that still import the `factorial` function will continue to work,
-    but other modules are being updated to import `Factorial`.
-    """
-    return Factorial.factorial(num)
-
-
 if __name__ == "__main__":
     num = int(input("Enter a number to calculate its factorial: "))
     print(f"The factorial of {num} is: {Factorial.factorial(num)}")
