@@ -1,7 +1,12 @@
 import decimal
+import sys
+sys.path.append("../..")
+
+from Numerical_Methods.Functions.Factorial.factorial import Factorial
 
 class S_Ramanujan_algo:
 
+    @staticmethod
     def calculate_pi_ramanujan(num_decimal_places, num_terms):
         """
         Calculates the value of pi using S. Ramanujan's formula.
@@ -30,11 +35,11 @@ class S_Ramanujan_algo:
         constant = (decimal.Decimal(2) * decimal.Decimal(2).sqrt()) / decimal.Decimal(9801)
 
         for k in range(num_terms):
-            numerator_factorial = decimal.Decimal(S_Ramanujan_algo.factorial(4 * k))
+            numerator_factorial = decimal.Decimal(Factorial.factorial(4 * k))
             numerator_expression = decimal.Decimal(1103 + 26390 * k)
             numerator = numerator_factorial * numerator_expression
 
-            denominator_factorial = (decimal.Decimal(S_Ramanujan_algo.factorial(k)))**4
+            denominator_factorial = (decimal.Decimal(Factorial.factorial(k)))**4
             denominator_power = decimal.Decimal(396)**(4 * k)
             denominator = denominator_factorial * denominator_power
 
@@ -48,18 +53,6 @@ class S_Ramanujan_algo:
         pi_value = decimal.Decimal(1) / one_over_pi
 
         return pi_value
-
-    def factorial(n):
-        """
-        Calculates the factorial of a non-negative integer.
-        """
-        if n == 0:
-            return 1
-        else:
-            res = 1
-            for i in range(1, n + 1):
-                res *= i
-            return res
 
 if __name__ == "__main__":
     try:

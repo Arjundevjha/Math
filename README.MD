@@ -73,7 +73,7 @@ the repository.
   - [x] `trinomial_theorem.py`
   - [x] `trinomial_theorem_general_term.py`
 - [x] `Number_Theory/`
-  - [x] `partitions.py`
+  - [x] `partitions_approximation.py`
   - [x] `prime_factorisation.py`
   - [x] `gcd.py`
   - [x] `lcm.py`
@@ -201,9 +201,11 @@ the repository.
 - [x] `Functions/`
   - [x] `Factorial/`
     - [x] `factorial.py`
-  - [ ] `hexation/`
+  - [x] `hexation/`
+      -[x] `hexation.py`
   - [ ] `square_root/`
-  - [ ] `tetration/`
+  - [x]  `tetration/`
+    - [x] `tetration.py`
 
 ---
 
