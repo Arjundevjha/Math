@@ -28,14 +28,27 @@ def arcsin_numerical(
 
     pi_approx = 3.14159265358979323846
 
-    # Search in range [0, π/2] for positive values
-    step = 0.0001
-    angle = 0.0
+    # Search in range [0, π/2] for positive values using binary search (bisection method).
+    # Optimization: Replaced O(1/step) linear scan (~15,700 iterations) with O(log(1/eps))
+    # binary search (~25 iterations) since sine is strictly monotonic on [0, π/2].
+    if sin_value < 0:
+        return None
 
-    while angle <= pi_approx / 2:
-        calculated_sin = sine_taylor(angle, terms=100)
-        if abs(calculated_sin - sin_value) < precision:
-            return angle
-        angle += step
+    low = 0.0
+    high = pi_approx / 2
+
+    # Perform binary search down to target tolerance interval
+    while high - low > 1e-7:
+        mid = (low + high) / 2
+        calc_sin = sine_taylor(mid, terms=25)
+        if calc_sin < sin_value:
+            low = mid
+        else:
+            high = mid
+
+    angle = (low + high) / 2
+    calc_sin = sine_taylor(angle, terms=25)
+    if abs(calc_sin - sin_value) < precision:
+        return angle
 
     return None
