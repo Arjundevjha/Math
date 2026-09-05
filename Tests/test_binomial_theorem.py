@@ -43,6 +43,18 @@ def test_expand_binomial_negative_n():
         expand_binomial('x', 'y', -1)
 
 
+def test_expand_binomial_exceeds_max_n():
+    with pytest.raises(ValueError, match="Power n exceeds maximum limit of 1000."):
+        expand_binomial('x', 'y', 1001)
+
+
+def test_expand_binomial_invalid_type():
+    with pytest.raises(TypeError, match="Power n must be an integer."):
+        expand_binomial('x', 'y', 2.5)  # float
+    with pytest.raises(TypeError, match="Power n must be an integer."):
+        expand_binomial('x', 'y', True)  # bool
+
+
 def test_binomial_coefficient_normal():
     assert binomial_coefficient(5, 2) == 10
     assert binomial_coefficient(10, 3) == 120
