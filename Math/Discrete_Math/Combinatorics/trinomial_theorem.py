@@ -45,13 +45,19 @@ def expand_trinomial(a: str, b: str, c: str, n: int) -> str:
     
     result = []
     # Expand using trinomial theorem: (a+b+c)ⁿ = Σ C(n,i)×C(n-i,j) × aⁱ × bʲ × cᵏ
-    # Optimization: Precompute c_n_i = nCr(n, i) in the outer loop to avoid redundant inner nCr calls
+    # Optimization: Iterative recurrence for both C(n, i) and C(n-i, j) achieves O(1)
+    # updates per term without redundant nCr function calls.
+    c_n_i = 1
     for i in range(n + 1):
-        c_n_i = nCr(n, i)
+        if i > 0:
+            c_n_i = c_n_i * (n - i + 1) // i
         rem = n - i
+        c_rem_j = 1
         for j in range(rem + 1):
+            if j > 0:
+                c_rem_j = c_rem_j * (rem - j + 1) // j
             k = rem - j
-            coeff = c_n_i * nCr(rem, j)
+            coeff = c_n_i * c_rem_j
             term = f"{coeff}*{a}^{i}*{b}^{j}*{c}^{k}"
             result.append(term)
     

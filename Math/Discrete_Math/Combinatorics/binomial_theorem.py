@@ -38,8 +38,12 @@ def expand_binomial(a: str, b: str, n: int) -> str:
     
     result = []
     # Expand using binomial theorem: (a+b)ⁿ = Σ C(n,r) × aⁿ⁻ʳ × bʳ
+    # Optimization: Compute coefficients iteratively in O(1) per term using
+    # C(n, r) = C(n, r-1) * (n - r + 1) // r, reducing total complexity to O(n).
+    coeff = 1
     for r in range(n + 1):
-        coeff = binomial_coefficient(n, r)
+        if r > 0:
+            coeff = coeff * (n - r + 1) // r
         term = f"{coeff}*{a}^{n - r}*{b}^{r}"
         result.append(term)
     
