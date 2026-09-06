@@ -21,21 +21,30 @@ def arcsin_numerical(
     if sin_value < -1 or sin_value > 1:
         raise ValueError("Sine value must be between -1 and 1.")
 
-    # Use numerical search to find angle where sin(angle) ≈ sin_value
-    import decimal
-
-    decimal.getcontext().prec = 50
-
     pi_approx = 3.14159265358979323846
 
-    # Search in range [0, π/2] for positive values
-    step = 0.0001
-    angle = 0.0
+    # The search domain is [0, π/2], where sine is non-negative and strictly increasing.
+    # Negative inputs outside [0, π/2] return None.
+    if sin_value < 0:
+        return None
 
-    while angle <= pi_approx / 2:
-        calculated_sin = sine_taylor(angle, terms=100)
-        if abs(calculated_sin - sin_value) < precision:
-            return angle
-        angle += step
+    # Optimization: Use binary search (bisection method) over [0, π/2]
+    # Convergence in ~35 iterations reducing interval to < 5e-11 (over 1,000x faster than linear scan).
+    low = 0.0
+    high = pi_approx / 2
+
+    for _ in range(35):
+        mid = (low + high) / 2
+        calculated_sin = sine_taylor(mid, terms=25)
+        if calculated_sin < sin_value:
+            low = mid
+        else:
+            high = mid
+
+    best_angle = (low + high) / 2
+    final_sin = sine_taylor(best_angle, terms=25)
+
+    if abs(final_sin - sin_value) < precision:
+        return best_angle
 
     return None
