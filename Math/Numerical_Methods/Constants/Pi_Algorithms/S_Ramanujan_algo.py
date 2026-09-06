@@ -30,7 +30,7 @@ def calculate_pi_ramanujan(num_decimal_places: int = 50, num_terms: int = 10) ->
 
     term_multiplier = Decimal(1)
     # 396^4 = 24591257856
-    c396_4 = Decimal(24591257856)
+    c396_4 = 24591257856
 
     # Apply Ramanujan's series
     for k in range(num_terms):
@@ -43,9 +43,9 @@ def calculate_pi_ramanujan(num_decimal_places: int = 50, num_terms: int = 10) ->
         # Calculate next term_multiplier: T_{k} = (4k)! / ((k!)^4 * 396^{4k})
         # The ratio T_{k+1} / T_k = (4k+4)(4k+3)(4k+2)(4k+1) / ((k+1)^4 * 396^4)
         next_k = k + 1
-        num = Decimal((4*k + 4) * (4*k + 3) * (4*k + 2) * (4*k + 1))
-        den = Decimal(next_k**4) * c396_4
-        term_multiplier *= num / den
+        num = (4 * k + 4) * (4 * k + 3) * (4 * k + 2) * (4 * k + 1)
+        den = (next_k ** 4) * c396_4
+        term_multiplier = (term_multiplier * num) / den
 
     # Calculate 1/π
     one_over_pi = constant * total_sum

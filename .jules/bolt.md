@@ -1,0 +1,3 @@
+## 2025-05-18 - Optimize Decimal instantiations in Ramanujan Pi loop
+**Learning:** Instantiating `Decimal(int)` wrappers inside iterative loops for term update calculations introduces substantial object allocation and type conversion overhead. In standard Python Decimal arithmetic, multiplying a `Decimal` instance by a native Python `int` performs optimized C-level arithmetic directly, avoiding explicit `Decimal()` construction per iteration.
+**Action:** Replace `num = Decimal(...)`, `den = Decimal(...) * Decimal(...)`, and `term_multiplier *= num / den` in series expansion loops with native integer arithmetic `num = (...)`, `den = (...)`, `term_multiplier = (term_multiplier * num) / den` to eliminate redundant Decimal allocations.
