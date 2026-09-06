@@ -28,8 +28,13 @@ def expand_binomial(a: str, b: str, n: int) -> str:
     Returns:
     str: The expanded form of the binomial.
     """
+    # Security: Validate type and enforce upper bound limit to prevent DoS via CPU/memory exhaustion
+    if not isinstance(n, int) or isinstance(n, bool):
+        raise TypeError("Power n must be an integer.")
     if n < 0:
         raise ValueError("Power n must be non-negative.")
+    if n > 1000:
+        raise ValueError("Power n exceeds maximum limit of 1000.")
     
     result = []
     # Expand using binomial theorem: (a+b)ⁿ = Σ C(n,r) × aⁿ⁻ʳ × bʳ
