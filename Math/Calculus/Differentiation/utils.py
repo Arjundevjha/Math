@@ -15,15 +15,12 @@ def compute_polynomial_derivative_str(
     Returns:
     str: String representation of the derivative.
     """
-    derivative_terms = []
-
     # Apply power rule: d/dx(ax^n) = n×a×x^(n-1)
-    for coeff, power in zip(coefficients, powers):
-        if power == 0:
-            continue
-        new_coeff = coeff * power
-        new_power = power - 1
-        derivative_terms.append(f"{new_coeff}x^{int(new_power)}")
+    derivative_terms = [
+        f"{coeff * power}x^{int(power - 1)}"
+        for coeff, power in zip(coefficients, powers)
+        if power != 0
+    ]
 
     return " + ".join(derivative_terms) if derivative_terms else "0"
 
