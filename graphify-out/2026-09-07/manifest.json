@@ -25,8 +25,8 @@
     "semantic_hash": "6aaf600480c4ae25cc81abcdce62ff01"
   },
   "Math/Algebra/Polynomials/quartic_formula.py": {
-    "mtime": 1788736506.708021,
-    "ast_hash": "133e00b62ccf20795de7fe2d6109363c",
+    "mtime": 1787542876.9085565,
+    "ast_hash": "e16e529d17278aecd44edf2b87186503",
     "semantic_hash": ""
   },
   "Math/Algebra/Polynomials/remainnder_theorem.py": {
@@ -80,8 +80,8 @@
     "semantic_hash": "330c0909592756e3620afdd913ffc396"
   },
   "Math/Discrete_Math/Combinatorics/binomial_theorem.py": {
-    "mtime": 1788736531.4432385,
-    "ast_hash": "f62e028ff13554eefab361e3395604af",
+    "mtime": 1788652978.0100691,
+    "ast_hash": "c4528096624e34cc09d79d52d9931e49",
     "semantic_hash": ""
   },
   "Math/Discrete_Math/Combinatorics/binomial_theorem_general_term.py": {
@@ -105,8 +105,8 @@
     "semantic_hash": ""
   },
   "Math/Discrete_Math/Combinatorics/trinomial_theorem.py": {
-    "mtime": 1788736539.3503745,
-    "ast_hash": "e56e1ec5efee59266ce246d8c85e0701",
+    "mtime": 1788052416.1704955,
+    "ast_hash": "ad1020d257cf0b559f021fcf1298185c",
     "semantic_hash": ""
   },
   "Math/Discrete_Math/Combinatorics/trinomial_theorem_general_term.py": {
@@ -125,8 +125,8 @@
     "semantic_hash": ""
   },
   "Math/Discrete_Math/Number_Theory/partitions.py": {
-    "mtime": 1788736564.3624349,
-    "ast_hash": "a58e4bb9346d6ef0f34f49c7303cb99b",
+    "mtime": 1788394503.5251215,
+    "ast_hash": "02dbe9973957af027c09703b6de995f1",
     "semantic_hash": ""
   },
   "Math/Discrete_Math/Number_Theory/partitions_approximation.py": {
@@ -280,8 +280,8 @@
     "semantic_hash": ""
   },
   "Math/Numerical_Methods/Constants/Pi_Algorithms/Nilakanths_algo.py": {
-    "mtime": 1788736547.0457027,
-    "ast_hash": "6f4e33ee266ea37a6fb2d108c692612b",
+    "mtime": 1788245167.0099902,
+    "ast_hash": "9e3b5a26ee644d2f8e05be233f32caed",
     "semantic_hash": ""
   },
   "Math/Numerical_Methods/Constants/Pi_Algorithms/S_Ramanujan_algo.py": {
@@ -550,8 +550,8 @@
     "semantic_hash": "d33dae1a5fac1a831b68109d276c05a4"
   },
   "handoff.md": {
-    "mtime": 1788653127.5427423,
-    "ast_hash": "a19af307b48075ecd7d032ced355f962",
+    "mtime": 1788482246.8263094,
+    "ast_hash": "5e016d00ce161606445350405fe5a9d1",
     "semantic_hash": ""
   },
   "Math/Algebra/Abstract_Algebra_Intro/__init__.py": {
@@ -895,8 +895,8 @@
     "semantic_hash": ""
   },
   "Tests/test_trinomial_theorem.py": {
-    "mtime": 1788736506.7087963,
-    "ast_hash": "d8e0bfef740e2535b8c6aac6a7a7b998",
+    "mtime": 1788052419.1216125,
+    "ast_hash": "9ddc2193790dc4830a29a0d5feb51979",
     "semantic_hash": ""
   },
   "Tests/test_trinomial_theorem_general_term.py": {
@@ -967,11 +967,6 @@
   "Tests/test_partitions_approximation.py": {
     "mtime": 1788652978.011014,
     "ast_hash": "690e038632e07564267928cf767dd7bc",
-    "semantic_hash": ""
-  },
-  "Tests/test_math_utils.py": {
-    "mtime": 1788736506.7086027,
-    "ast_hash": "2d6d9a116f316165992b472bfeaa5c7b",
     "semantic_hash": ""
   }
 }

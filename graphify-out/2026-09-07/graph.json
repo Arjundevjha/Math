@@ -309,21 +309,10 @@
       "norm_label": "_compute_residual_error()"
     },
     {
-      "label": "_select_best_branch()",
-      "file_type": "code",
-      "source_file": "Math/Algebra/Polynomials/quartic_formula.py",
-      "source_location": "L134",
-      "_origin": "ast",
-      "id": "math_algebra_polynomials_quartic_formula_select_best_branch",
-      "community": 19,
-      "community_name": "Greatest Common Divisor (GCD)",
-      "norm_label": "_select_best_branch()"
-    },
-    {
       "label": "quartic_formula()",
       "file_type": "code",
       "source_file": "Math/Algebra/Polynomials/quartic_formula.py",
-      "source_location": "L178",
+      "source_location": "L134",
       "_origin": "ast",
       "id": "math_algebra_polynomials_quartic_formula_quartic_formula",
       "community": 19,
@@ -375,23 +364,12 @@
       "norm_label": "calculate residual sum of absolute evaluation errors for candidate roots.      p"
     },
     {
-      "label": "Evaluate candidate roots across cube root branches of U to find the set     with",
-      "file_type": "rationale",
-      "source_file": "Math/Algebra/Polynomials/quartic_formula.py",
-      "source_location": "L144",
-      "_origin": "ast",
-      "id": "math_algebra_polynomials_quartic_formula_rationale_144",
-      "community": 19,
-      "community_name": "Greatest Common Divisor (GCD)",
-      "norm_label": "evaluate candidate roots across cube root branches of u to find the set     with"
-    },
-    {
       "label": "Solve quartic equations of the form ax\u2074 + bx\u00b3 + cx\u00b2 + dx + e = 0     using Lande",
       "file_type": "rationale",
       "source_file": "Math/Algebra/Polynomials/quartic_formula.py",
-      "source_location": "L185",
+      "source_location": "L141",
       "_origin": "ast",
-      "id": "math_algebra_polynomials_quartic_formula_rationale_185",
+      "id": "math_algebra_polynomials_quartic_formula_rationale_141",
       "community": 19,
       "community_name": "Greatest Common Divisor (GCD)",
       "norm_label": "solve quartic equations of the form ax4 + bx3 + cx2 + dx + e = 0     using lande"
@@ -579,8 +557,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "math_calculus_differentiation_chain_rule",
-      "community": 46,
-      "community_name": "Polynomial Format Module",
+      "community": 24,
+      "community_name": "Calculus Chain Rule",
       "norm_label": "chain_rule.py"
     },
     {
@@ -623,8 +601,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "math_calculus_differentiation_product_rule_product_rule_derivative",
-      "community": 52,
-      "community_name": "TestCalculusDifferentiation",
+      "community": 46,
+      "community_name": "Polynomial Format Module",
       "norm_label": "product_rule_derivative()"
     },
     {
@@ -634,8 +612,8 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "math_calculus_differentiation_product_rule_rationale_14",
-      "community": 52,
-      "community_name": "TestCalculusDifferentiation",
+      "community": 46,
+      "community_name": "Polynomial Format Module",
       "norm_label": "apply the product rule to find the derivative of u(x) * v(x).      parameters:"
     },
     {
@@ -645,8 +623,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "math_calculus_differentiation_quotient_rule",
-      "community": 46,
-      "community_name": "Polynomial Format Module",
+      "community": 9,
+      "community_name": "Calculus Quotient Rule",
       "norm_label": "quotient_rule.py"
     },
     {
@@ -744,8 +722,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "math_calculus_differentiation_utils",
-      "community": 46,
-      "community_name": "Polynomial Format Module",
+      "community": 24,
+      "community_name": "Calculus Chain Rule",
       "norm_label": "utils.py"
     },
     {
@@ -854,8 +832,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "math_calculus_integration_trigintegration",
-      "community": 40,
-      "community_name": "Trigonometric Integration",
+      "community": 26,
+      "community_name": "Trigonometric Tangent Functions",
       "norm_label": "trigintegration.py"
     },
     {
@@ -865,8 +843,8 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "math_calculus_integration_trigintegration_integrate_sin",
-      "community": 40,
-      "community_name": "Trigonometric Integration",
+      "community": 26,
+      "community_name": "Trigonometric Tangent Functions",
       "norm_label": "integrate_sin()"
     },
     {
@@ -887,8 +865,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "math_calculus_integration_trigintegration_rationale_8",
-      "community": 40,
-      "community_name": "Trigonometric Integration",
+      "community": 26,
+      "community_name": "Trigonometric Tangent Functions",
       "norm_label": "calculate the definite integral of sin(x) from a to b.      parameters:     a (u"
     },
     {
@@ -1019,8 +997,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "math_discrete_math_combinatorics_binomial_theorem_general_term",
-      "community": 1,
-      "community_name": "Binomial Theorem",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "binomial_theorem_general_term.py"
     },
     {
@@ -1030,8 +1008,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "math_discrete_math_combinatorics_binomial_theorem_general_term_binomial_general_term",
-      "community": 41,
-      "community_name": "Approximation Partition Module",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "binomial_general_term()"
     },
     {
@@ -1041,8 +1019,8 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "math_discrete_math_combinatorics_binomial_theorem_general_term_rationale_9",
-      "community": 41,
-      "community_name": "Approximation Partition Module",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "calculate the general term in the binomial expansion of (a + b)^n.      paramete"
     },
     {
@@ -1173,8 +1151,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "math_discrete_math_combinatorics_trinomial_theorem",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": "trinomial_theorem.py"
     },
     {
@@ -1184,8 +1162,8 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "math_discrete_math_combinatorics_trinomial_theorem_trinomial_coefficient",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": "trinomial_coefficient()"
     },
     {
@@ -1195,8 +1173,8 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "math_discrete_math_combinatorics_trinomial_theorem_expand_trinomial",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": "expand_trinomial()"
     },
     {
@@ -1206,8 +1184,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "math_discrete_math_combinatorics_trinomial_theorem_rationale_6",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": "calculate the coefficient for a term in the trinomial expansion.      parameters"
     },
     {
@@ -1217,8 +1195,8 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "math_discrete_math_combinatorics_trinomial_theorem_rationale_26",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": "expand the trinomial (a + b + c)^n using the trinomial theorem.      parameters:"
     },
     {
@@ -1228,8 +1206,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "math_discrete_math_combinatorics_trinomial_theorem_general_term",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": "trinomial_theorem_general_term.py"
     },
     {
@@ -1239,8 +1217,8 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "math_discrete_math_combinatorics_trinomial_theorem_general_term_trinomial_general_term",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": "trinomial_general_term()"
     },
     {
@@ -1250,8 +1228,8 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "math_discrete_math_combinatorics_trinomial_theorem_general_term_rationale_17",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": "calculate the general term in the trinomial expansion of (a + b + c)^n.      par"
     },
     {
@@ -1360,8 +1338,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "math_discrete_math_number_theory_partitions",
-      "community": 133,
-      "community_name": "partition",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "partitions.py"
     },
     {
@@ -1371,8 +1349,8 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "math_discrete_math_number_theory_partitions_partition",
-      "community": 133,
-      "community_name": "partition",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "partition()"
     },
     {
@@ -1382,8 +1360,8 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "math_discrete_math_number_theory_partitions_rationale_5",
-      "community": 133,
-      "community_name": "partition",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "calculate the number of partitions of a positive integer n.      parameters:"
     },
     {
@@ -1393,8 +1371,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "math_discrete_math_number_theory_partitions_approximation",
-      "community": 132,
-      "community_name": "partition_approximation",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "partitions_approximation.py"
     },
     {
@@ -1404,8 +1382,8 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "math_discrete_math_number_theory_partitions_approximation_partition_approximation",
-      "community": 132,
-      "community_name": "partition_approximation",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "partition_approximation()"
     },
     {
@@ -1415,8 +1393,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "math_discrete_math_number_theory_partitions_approximation_rationale_6",
-      "community": 132,
-      "community_name": "partition_approximation",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "calculate an approximation of the number of partitions p(n) using ramanujan's fo"
     },
     {
@@ -3208,8 +3186,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "math_utils_math_utils",
-      "community": 46,
-      "community_name": "Polynomial Format Module",
+      "community": 30,
+      "community_name": "Euclidean Volume (Cone)",
       "norm_label": "math_utils.py"
     },
     {
@@ -3241,8 +3219,8 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "math_utils_math_utils_factorial_decimal",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
+      "community": 41,
+      "community_name": "Approximation Partition Module",
       "norm_label": "factorial_decimal()"
     },
     {
@@ -3252,8 +3230,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "math_utils_math_utils_py_decimal",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
+      "community": 30,
+      "community_name": "Euclidean Volume (Cone)",
       "norm_label": "decimal"
     },
     {
@@ -3296,8 +3274,8 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "math_utils_math_utils_rationale_56",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
+      "community": 41,
+      "community_name": "Approximation Partition Module",
       "norm_label": "calculate factorial as a decimal for high precision.      parameters:     n (int"
     },
     {
@@ -5980,8 +5958,8 @@
       "source_location": "L862",
       "_origin": "ast",
       "id": "tests_test_calculus_testformatpolynomialchainrule_test_integrate_cos_same_bounds",
-      "community": 8,
-      "community_name": "Test Calculus Testformatpolynomialchainrule Module",
+      "community": 4,
+      "community_name": "Trigonometric Integration",
       "norm_label": ".test_integrate_cos_same_bounds()"
     },
     {
@@ -6090,8 +6068,8 @@
       "source_location": "L863",
       "_origin": "ast",
       "id": "tests_test_calculus_rationale_863",
-      "community": 8,
-      "community_name": "Test Calculus Testformatpolynomialchainrule Module",
+      "community": 4,
+      "community_name": "Trigonometric Integration",
       "norm_label": "test integral of cos(x) from pi to pi = 0"
     },
     {
@@ -6233,8 +6211,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "tests_test_discretemath",
-      "community": 41,
-      "community_name": "Approximation Partition Module",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test_discretemath.py"
     },
     {
@@ -6244,8 +6222,8 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "tests_test_discretemath_test_factorial_zero",
-      "community": 41,
-      "community_name": "Approximation Partition Module",
+      "community": 18,
+      "community_name": "Factorial Discrete Module",
       "norm_label": "test_factorial_zero()"
     },
     {
@@ -6255,8 +6233,8 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "tests_test_discretemath_test_factorial_one",
-      "community": 41,
-      "community_name": "Approximation Partition Module",
+      "community": 18,
+      "community_name": "Factorial Discrete Module",
       "norm_label": "test_factorial_one()"
     },
     {
@@ -6266,8 +6244,8 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "tests_test_discretemath_test_factorial_positive_integers",
-      "community": 41,
-      "community_name": "Approximation Partition Module",
+      "community": 18,
+      "community_name": "Factorial Discrete Module",
       "norm_label": "test_factorial_positive_integers()"
     },
     {
@@ -6277,8 +6255,8 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "tests_test_discretemath_test_factorial_large_number",
-      "community": 41,
-      "community_name": "Approximation Partition Module",
+      "community": 18,
+      "community_name": "Factorial Discrete Module",
       "norm_label": "test_factorial_large_number()"
     },
     {
@@ -6288,8 +6266,8 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "tests_test_discretemath_test_factorial_negative_number",
-      "community": 41,
-      "community_name": "Approximation Partition Module",
+      "community": 18,
+      "community_name": "Factorial Discrete Module",
       "norm_label": "test_factorial_negative_number()"
     },
     {
@@ -6354,8 +6332,8 @@
       "source_location": "L91",
       "_origin": "ast",
       "id": "tests_test_discretemath_test_binomial_general_term",
-      "community": 41,
-      "community_name": "Approximation Partition Module",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test_binomial_general_term()"
     },
     {
@@ -6365,8 +6343,8 @@
       "source_location": "L98",
       "_origin": "ast",
       "id": "tests_test_discretemath_test_binomial_general_term_edge_cases",
-      "community": 41,
-      "community_name": "Approximation Partition Module",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test_binomial_general_term_edge_cases()"
     },
     {
@@ -6376,8 +6354,8 @@
       "source_location": "L106",
       "_origin": "ast",
       "id": "tests_test_discretemath_test_binomial_general_term_powers",
-      "community": 41,
-      "community_name": "Approximation Partition Module",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test_binomial_general_term_powers()"
     },
     {
@@ -6387,8 +6365,8 @@
       "source_location": "L118",
       "_origin": "ast",
       "id": "tests_test_discretemath_test_partition_approximation_edge_cases",
-      "community": 132,
-      "community_name": "partition_approximation",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test_partition_approximation_edge_cases()"
     },
     {
@@ -6398,8 +6376,8 @@
       "source_location": "L128",
       "_origin": "ast",
       "id": "tests_test_discretemath_test_partition_approximation_small_values",
-      "community": 132,
-      "community_name": "partition_approximation",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test_partition_approximation_small_values()"
     },
     {
@@ -6409,8 +6387,8 @@
       "source_location": "L149",
       "_origin": "ast",
       "id": "tests_test_discretemath_test_partition_approximation_large_values",
-      "community": 132,
-      "community_name": "partition_approximation",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test_partition_approximation_large_values()"
     },
     {
@@ -6420,8 +6398,8 @@
       "source_location": "L164",
       "_origin": "ast",
       "id": "tests_test_discretemath_test_partition_approximation_relative_error",
-      "community": 133,
-      "community_name": "partition",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test_partition_approximation_relative_error()"
     },
     {
@@ -6431,8 +6409,8 @@
       "source_location": "L184",
       "_origin": "ast",
       "id": "tests_test_discretemath_test_partition_negative",
-      "community": 133,
-      "community_name": "partition",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test_partition_negative()"
     },
     {
@@ -6442,8 +6420,8 @@
       "source_location": "L189",
       "_origin": "ast",
       "id": "tests_test_discretemath_test_partition_zero",
-      "community": 41,
-      "community_name": "Approximation Partition Module",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test_partition_zero()"
     },
     {
@@ -6453,8 +6431,8 @@
       "source_location": "L193",
       "_origin": "ast",
       "id": "tests_test_discretemath_test_partition_positive",
-      "community": 41,
-      "community_name": "Approximation Partition Module",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test_partition_positive()"
     },
     {
@@ -6464,8 +6442,8 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "tests_test_discretemath_rationale_20",
-      "community": 41,
-      "community_name": "Approximation Partition Module",
+      "community": 18,
+      "community_name": "Factorial Discrete Module",
       "norm_label": "test that factorial of 0 is 1."
     },
     {
@@ -6475,8 +6453,8 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "tests_test_discretemath_rationale_25",
-      "community": 41,
-      "community_name": "Approximation Partition Module",
+      "community": 18,
+      "community_name": "Factorial Discrete Module",
       "norm_label": "test that factorial of 1 is 1."
     },
     {
@@ -6486,8 +6464,8 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "tests_test_discretemath_rationale_30",
-      "community": 41,
-      "community_name": "Approximation Partition Module",
+      "community": 18,
+      "community_name": "Factorial Discrete Module",
       "norm_label": "test factorial calculation for positive integers."
     },
     {
@@ -6497,8 +6475,8 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "tests_test_discretemath_rationale_39",
-      "community": 41,
-      "community_name": "Approximation Partition Module",
+      "community": 18,
+      "community_name": "Factorial Discrete Module",
       "norm_label": "test factorial calculation for a slightly larger number."
     },
     {
@@ -6508,8 +6486,8 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "tests_test_discretemath_rationale_45",
-      "community": 41,
-      "community_name": "Approximation Partition Module",
+      "community": 18,
+      "community_name": "Factorial Discrete Module",
       "norm_label": "test factorial with a negative number, which should raise recursionerror due to"
     },
     {
@@ -6563,8 +6541,8 @@
       "source_location": "L119",
       "_origin": "ast",
       "id": "tests_test_discretemath_rationale_119",
-      "community": 132,
-      "community_name": "partition_approximation",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test edge cases for partition approximation."
     },
     {
@@ -6574,8 +6552,8 @@
       "source_location": "L129",
       "_origin": "ast",
       "id": "tests_test_discretemath_rationale_129",
-      "community": 132,
-      "community_name": "partition_approximation",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test small values to ensure the formula computes successfully."
     },
     {
@@ -6585,8 +6563,8 @@
       "source_location": "L150",
       "_origin": "ast",
       "id": "tests_test_discretemath_rationale_150",
-      "community": 132,
-      "community_name": "partition_approximation",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test larger values to ensure the formula produces expected output."
     },
     {
@@ -6596,8 +6574,8 @@
       "source_location": "L165",
       "_origin": "ast",
       "id": "tests_test_discretemath_rationale_165",
-      "community": 133,
-      "community_name": "partition",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test that the approximation improves relative to the exact partition function."
     },
     {
@@ -6618,8 +6596,8 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "tests_test_eulers_number_testfactorialdecimal",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
+      "community": 41,
+      "community_name": "Approximation Partition Module",
       "norm_label": "testfactorialdecimal"
     },
     {
@@ -6629,8 +6607,8 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "tests_test_eulers_number_testfactorialdecimal_test_factorial_zero",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
+      "community": 41,
+      "community_name": "Approximation Partition Module",
       "norm_label": ".test_factorial_zero()"
     },
     {
@@ -6640,8 +6618,8 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "tests_test_eulers_number_testfactorialdecimal_test_factorial_one",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
+      "community": 41,
+      "community_name": "Approximation Partition Module",
       "norm_label": ".test_factorial_one()"
     },
     {
@@ -6651,8 +6629,8 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "tests_test_eulers_number_testfactorialdecimal_test_factorial_positive",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
+      "community": 41,
+      "community_name": "Approximation Partition Module",
       "norm_label": ".test_factorial_positive()"
     },
     {
@@ -6662,8 +6640,8 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "tests_test_eulers_number_testfactorialdecimal_test_factorial_negative",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
+      "community": 41,
+      "community_name": "Approximation Partition Module",
       "norm_label": ".test_factorial_negative()"
     },
     {
@@ -6673,8 +6651,8 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "tests_test_eulers_number_testfactorialdecimal_test_factorial_type",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
+      "community": 41,
+      "community_name": "Approximation Partition Module",
       "norm_label": ".test_factorial_type()"
     },
     {
@@ -6750,8 +6728,8 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "tests_test_eulers_number_rationale_11",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
+      "community": 41,
+      "community_name": "Approximation Partition Module",
       "norm_label": "test factorial of zero is 1."
     },
     {
@@ -6761,8 +6739,8 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "tests_test_eulers_number_rationale_15",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
+      "community": 41,
+      "community_name": "Approximation Partition Module",
       "norm_label": "test factorial of one is 1."
     },
     {
@@ -6772,8 +6750,8 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "tests_test_eulers_number_rationale_19",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
+      "community": 41,
+      "community_name": "Approximation Partition Module",
       "norm_label": "test factorial for positive integers."
     },
     {
@@ -6783,8 +6761,8 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "tests_test_eulers_number_rationale_24",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
+      "community": 41,
+      "community_name": "Approximation Partition Module",
       "norm_label": "test that negative numbers raise valueerror."
     },
     {
@@ -6794,8 +6772,8 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "tests_test_eulers_number_rationale_29",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
+      "community": 41,
+      "community_name": "Approximation Partition Module",
       "norm_label": "test that the result is of type decimal."
     },
     {
@@ -7322,8 +7300,8 @@
       "source_location": "L127",
       "_origin": "ast",
       "id": "tests_test_numericalmethods_test_factorial_decimal_exceeds_upper_bound",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
+      "community": 41,
+      "community_name": "Approximation Partition Module",
       "norm_label": "test_factorial_decimal_exceeds_upper_bound()"
     },
     {
@@ -7333,8 +7311,8 @@
       "source_location": "L134",
       "_origin": "ast",
       "id": "tests_test_numericalmethods_test_factorial_decimal_invalid_types",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
+      "community": 41,
+      "community_name": "Approximation Partition Module",
       "norm_label": "test_factorial_decimal_invalid_types()"
     },
     {
@@ -7718,8 +7696,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "tests_test_trigintegration",
-      "community": 40,
-      "community_name": "Trigonometric Integration",
+      "community": 26,
+      "community_name": "Trigonometric Tangent Functions",
       "norm_label": "test_trigintegration.py"
     },
     {
@@ -7729,8 +7707,8 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "tests_test_trigintegration_testtrigintegration",
-      "community": 26,
-      "community_name": "Trigonometric Tangent Functions",
+      "community": 25,
+      "community_name": "Partition Test Discretetest Module",
       "norm_label": "testtrigintegration"
     },
     {
@@ -7751,8 +7729,8 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "tests_test_trigintegration_testtrigintegration_test_integrate_sin_full_period",
-      "community": 40,
-      "community_name": "Trigonometric Integration",
+      "community": 25,
+      "community_name": "Partition Test Discretetest Module",
       "norm_label": ".test_integrate_sin_full_period()"
     },
     {
@@ -7784,8 +7762,8 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "tests_test_trigintegration_testtrigintegration_test_integrate_sin_pi",
-      "community": 40,
-      "community_name": "Trigonometric Integration",
+      "community": 26,
+      "community_name": "Trigonometric Tangent Functions",
       "norm_label": ".test_integrate_sin_pi()"
     },
     {
@@ -7795,8 +7773,8 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "tests_test_trigintegration_testtrigintegration_test_integrate_sin_reversed_bounds",
-      "community": 26,
-      "community_name": "Trigonometric Tangent Functions",
+      "community": 25,
+      "community_name": "Partition Test Discretetest Module",
       "norm_label": ".test_integrate_sin_reversed_bounds()"
     },
     {
@@ -7828,8 +7806,8 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "tests_test_trigintegration_testtrigintegration_test_integrate_cos_basic",
-      "community": 26,
-      "community_name": "Trigonometric Tangent Functions",
+      "community": 25,
+      "community_name": "Partition Test Discretetest Module",
       "norm_label": ".test_integrate_cos_basic()"
     },
     {
@@ -7850,8 +7828,8 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "tests_test_trigintegration_testtrigintegration_test_integrate_cos_negative_bounds",
-      "community": 26,
-      "community_name": "Trigonometric Tangent Functions",
+      "community": 25,
+      "community_name": "Partition Test Discretetest Module",
       "norm_label": ".test_integrate_cos_negative_bounds()"
     },
     {
@@ -7861,8 +7839,8 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "tests_test_trigintegration_testtrigintegration_test_integrate_cos_same_bounds",
-      "community": 26,
-      "community_name": "Trigonometric Tangent Functions",
+      "community": 4,
+      "community_name": "Trigonometric Integration",
       "norm_label": ".test_integrate_cos_same_bounds()"
     },
     {
@@ -7872,8 +7850,8 @@
       "source_location": "L67",
       "_origin": "ast",
       "id": "tests_test_trigintegration_testtrigintegration_test_integrate_cos_half_period",
-      "community": 4,
-      "community_name": "Trigonometric Integration",
+      "community": 25,
+      "community_name": "Partition Test Discretetest Module",
       "norm_label": ".test_integrate_cos_half_period()"
     },
     {
@@ -7883,8 +7861,8 @@
       "source_location": "L72",
       "_origin": "ast",
       "id": "tests_test_trigintegration_testtrigintegration_test_integrate_cos_reversed_bounds",
-      "community": 4,
-      "community_name": "Trigonometric Integration",
+      "community": 25,
+      "community_name": "Partition Test Discretetest Module",
       "norm_label": ".test_integrate_cos_reversed_bounds()"
     },
     {
@@ -7894,8 +7872,8 @@
       "source_location": "L77",
       "_origin": "ast",
       "id": "tests_test_trigintegration_testtrigintegration_test_integrate_cos_fractional_bounds",
-      "community": 26,
-      "community_name": "Trigonometric Tangent Functions",
+      "community": 25,
+      "community_name": "Partition Test Discretetest Module",
       "norm_label": ".test_integrate_cos_fractional_bounds()"
     },
     {
@@ -7905,8 +7883,8 @@
       "source_location": "L83",
       "_origin": "ast",
       "id": "tests_test_trigintegration_testtrigintegration_test_integrate_cos_multiple_periods",
-      "community": 4,
-      "community_name": "Trigonometric Integration",
+      "community": 25,
+      "community_name": "Partition Test Discretetest Module",
       "norm_label": ".test_integrate_cos_multiple_periods()"
     },
     {
@@ -7927,8 +7905,8 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "tests_test_trigintegration_rationale_12",
-      "community": 40,
-      "community_name": "Trigonometric Integration",
+      "community": 25,
+      "community_name": "Partition Test Discretetest Module",
       "norm_label": "test integral of sin(x) from 0 to 2*pi = 0"
     },
     {
@@ -7960,8 +7938,8 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "tests_test_trigintegration_rationale_27",
-      "community": 40,
-      "community_name": "Trigonometric Integration",
+      "community": 26,
+      "community_name": "Trigonometric Tangent Functions",
       "norm_label": "test integral of sin(x) from 0 to pi = 2"
     },
     {
@@ -7971,8 +7949,8 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "tests_test_trigintegration_rationale_32",
-      "community": 26,
-      "community_name": "Trigonometric Tangent Functions",
+      "community": 25,
+      "community_name": "Partition Test Discretetest Module",
       "norm_label": "test integral of sin(x) from pi to 0 = -2"
     },
     {
@@ -8004,8 +7982,8 @@
       "source_location": "L48",
       "_origin": "ast",
       "id": "tests_test_trigintegration_rationale_48",
-      "community": 26,
-      "community_name": "Trigonometric Tangent Functions",
+      "community": 25,
+      "community_name": "Partition Test Discretetest Module",
       "norm_label": "test integral of cos(x) from 0 to pi/2 = 1"
     },
     {
@@ -8026,8 +8004,8 @@
       "source_location": "L58",
       "_origin": "ast",
       "id": "tests_test_trigintegration_rationale_58",
-      "community": 26,
-      "community_name": "Trigonometric Tangent Functions",
+      "community": 25,
+      "community_name": "Partition Test Discretetest Module",
       "norm_label": "test integral of cos(x) from -pi/2 to 0 = 1"
     },
     {
@@ -8037,8 +8015,8 @@
       "source_location": "L63",
       "_origin": "ast",
       "id": "tests_test_trigintegration_rationale_63",
-      "community": 26,
-      "community_name": "Trigonometric Tangent Functions",
+      "community": 4,
+      "community_name": "Trigonometric Integration",
       "norm_label": "test integral of cos(x) from a to a = 0"
     },
     {
@@ -8048,8 +8026,8 @@
       "source_location": "L68",
       "_origin": "ast",
       "id": "tests_test_trigintegration_rationale_68",
-      "community": 4,
-      "community_name": "Trigonometric Integration",
+      "community": 25,
+      "community_name": "Partition Test Discretetest Module",
       "norm_label": "test integral of cos(x) from -pi/2 to pi/2 = 2"
     },
     {
@@ -8059,8 +8037,8 @@
       "source_location": "L73",
       "_origin": "ast",
       "id": "tests_test_trigintegration_rationale_73",
-      "community": 4,
-      "community_name": "Trigonometric Integration",
+      "community": 25,
+      "community_name": "Partition Test Discretetest Module",
       "norm_label": "test integral of cos(x) from pi/2 to 0 = -1"
     },
     {
@@ -8070,8 +8048,8 @@
       "source_location": "L78",
       "_origin": "ast",
       "id": "tests_test_trigintegration_rationale_78",
-      "community": 26,
-      "community_name": "Trigonometric Tangent Functions",
+      "community": 25,
+      "community_name": "Partition Test Discretetest Module",
       "norm_label": "test integral of cos(x) from pi/6 to pi/3 = (sqrt(3)/2 - 1/2)"
     },
     {
@@ -8081,8 +8059,8 @@
       "source_location": "L84",
       "_origin": "ast",
       "id": "tests_test_trigintegration_rationale_84",
-      "community": 4,
-      "community_name": "Trigonometric Integration",
+      "community": 25,
+      "community_name": "Partition Test Discretetest Module",
       "norm_label": "test integral of cos(x) over multiple periods"
     },
     {
@@ -8598,8 +8576,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "tests_test_chain_rule",
-      "community": 46,
-      "community_name": "Polynomial Format Module",
+      "community": 20,
+      "community_name": "Calculus Chain Rule",
       "norm_label": "test_chain_rule.py"
     },
     {
@@ -8752,8 +8730,8 @@
       "source_location": "L70",
       "_origin": "ast",
       "id": "tests_test_chain_rule_testchainruleformatpolynomial",
-      "community": 46,
-      "community_name": "Polynomial Format Module",
+      "community": 20,
+      "community_name": "Calculus Chain Rule",
       "norm_label": "testchainruleformatpolynomial"
     },
     {
@@ -8763,8 +8741,8 @@
       "source_location": "L71",
       "_origin": "ast",
       "id": "tests_test_chain_rule_testchainruleformatpolynomial_test_format_polynomial_basic",
-      "community": 46,
-      "community_name": "Polynomial Format Module",
+      "community": 20,
+      "community_name": "Calculus Chain Rule",
       "norm_label": ".test_format_polynomial_basic()"
     },
     {
@@ -8774,8 +8752,8 @@
       "source_location": "L74",
       "_origin": "ast",
       "id": "tests_test_chain_rule_testchainruleformatpolynomial_test_format_polynomial_empty",
-      "community": 46,
-      "community_name": "Polynomial Format Module",
+      "community": 20,
+      "community_name": "Calculus Chain Rule",
       "norm_label": ".test_format_polynomial_empty()"
     },
     {
@@ -8785,8 +8763,8 @@
       "source_location": "L77",
       "_origin": "ast",
       "id": "tests_test_chain_rule_testchainruleformatpolynomial_test_format_polynomial_floats",
-      "community": 46,
-      "community_name": "Polynomial Format Module",
+      "community": 20,
+      "community_name": "Calculus Chain Rule",
       "norm_label": ".test_format_polynomial_floats()"
     },
     {
@@ -8796,8 +8774,8 @@
       "source_location": "L80",
       "_origin": "ast",
       "id": "tests_test_chain_rule_testchainruleformatpolynomial_test_format_polynomial_negative_powers",
-      "community": 46,
-      "community_name": "Polynomial Format Module",
+      "community": 20,
+      "community_name": "Calculus Chain Rule",
       "norm_label": ".test_format_polynomial_negative_powers()"
     },
     {
@@ -9390,8 +9368,8 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "tests_test_cosine_rule_test_factorial",
-      "community": 47,
-      "community_name": "Euclidean Area (Circle)",
+      "community": 18,
+      "community_name": "Factorial Discrete Module",
       "norm_label": "test_factorial()"
     },
     {
@@ -10957,490 +10935,6 @@
       "norm_label": "test_linear_eqn_large_coordinates()"
     },
     {
-      "label": "test_math_utils.py",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "tests_test_math_utils",
-      "community": 32,
-      "community_name": "Calculus Quotient Rule",
-      "norm_label": "test_math_utils.py"
-    },
-    {
-      "label": "TestPiConstant",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L13",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_testpiconstant",
-      "community": 32,
-      "community_name": "Calculus Quotient Rule",
-      "norm_label": "testpiconstant"
-    },
-    {
-      "label": ".test_pi_value_and_type()",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L14",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_testpiconstant_test_pi_value_and_type",
-      "community": 32,
-      "community_name": "Calculus Quotient Rule",
-      "norm_label": ".test_pi_value_and_type()"
-    },
-    {
-      "label": "TestProductTree",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L20",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_testproducttree",
-      "community": 59,
-      "community_name": "n_permute_r",
-      "norm_label": "testproducttree"
-    },
-    {
-      "label": ".test_start_greater_than_end()",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L21",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_testproducttree_test_start_greater_than_end",
-      "community": 59,
-      "community_name": "n_permute_r",
-      "norm_label": ".test_start_greater_than_end()"
-    },
-    {
-      "label": ".test_start_equals_end()",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L26",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_testproducttree_test_start_equals_end",
-      "community": 59,
-      "community_name": "n_permute_r",
-      "norm_label": ".test_start_equals_end()"
-    },
-    {
-      "label": ".test_start_plus_one_equals_end()",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L31",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_testproducttree_test_start_plus_one_equals_end",
-      "community": 59,
-      "community_name": "n_permute_r",
-      "norm_label": ".test_start_plus_one_equals_end()"
-    },
-    {
-      "label": ".test_product_tree_recursive_range()",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L36",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_testproducttree_test_product_tree_recursive_range",
-      "community": 59,
-      "community_name": "n_permute_r",
-      "norm_label": ".test_product_tree_recursive_range()"
-    },
-    {
-      "label": "TestFactorial",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L42",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_testfactorial",
-      "community": 18,
-      "community_name": "Factorial Discrete Module",
-      "norm_label": "testfactorial"
-    },
-    {
-      "label": ".test_factorial_zero_and_one()",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L43",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_testfactorial_test_factorial_zero_and_one",
-      "community": 18,
-      "community_name": "Factorial Discrete Module",
-      "norm_label": ".test_factorial_zero_and_one()"
-    },
-    {
-      "label": ".test_factorial_positive_integers()",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L48",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_testfactorial_test_factorial_positive_integers",
-      "community": 18,
-      "community_name": "Factorial Discrete Module",
-      "norm_label": ".test_factorial_positive_integers()"
-    },
-    {
-      "label": ".test_factorial_type_errors()",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L53",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_testfactorial_test_factorial_type_errors",
-      "community": 18,
-      "community_name": "Factorial Discrete Module",
-      "norm_label": ".test_factorial_type_errors()"
-    },
-    {
-      "label": ".test_factorial_negative_value_error()",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L67",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_testfactorial_test_factorial_negative_value_error",
-      "community": 18,
-      "community_name": "Factorial Discrete Module",
-      "norm_label": ".test_factorial_negative_value_error()"
-    },
-    {
-      "label": ".test_factorial_exceeds_limit()",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L75",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_testfactorial_test_factorial_exceeds_limit",
-      "community": 18,
-      "community_name": "Factorial Discrete Module",
-      "norm_label": ".test_factorial_exceeds_limit()"
-    },
-    {
-      "label": "TestFactorialDecimal",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L81",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_testfactorialdecimal",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
-      "norm_label": "testfactorialdecimal"
-    },
-    {
-      "label": ".test_factorial_decimal_zero_and_one()",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L82",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_testfactorialdecimal_test_factorial_decimal_zero_and_one",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
-      "norm_label": ".test_factorial_decimal_zero_and_one()"
-    },
-    {
-      "label": ".test_factorial_decimal_positive_integers()",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L87",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_testfactorialdecimal_test_factorial_decimal_positive_integers",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
-      "norm_label": ".test_factorial_decimal_positive_integers()"
-    },
-    {
-      "label": ".test_factorial_decimal_return_type()",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L92",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_testfactorialdecimal_test_factorial_decimal_return_type",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
-      "norm_label": ".test_factorial_decimal_return_type()"
-    },
-    {
-      "label": ".test_factorial_decimal_type_errors()",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L97",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_testfactorialdecimal_test_factorial_decimal_type_errors",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
-      "norm_label": ".test_factorial_decimal_type_errors()"
-    },
-    {
-      "label": ".test_factorial_decimal_negative_value_error()",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L111",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_testfactorialdecimal_test_factorial_decimal_negative_value_error",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
-      "norm_label": ".test_factorial_decimal_negative_value_error()"
-    },
-    {
-      "label": ".test_factorial_decimal_exceeds_limit()",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L116",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_testfactorialdecimal_test_factorial_decimal_exceeds_limit",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
-      "norm_label": ".test_factorial_decimal_exceeds_limit()"
-    },
-    {
-      "label": "TestFormatPolynomial",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L122",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_testformatpolynomial",
-      "community": 32,
-      "community_name": "Calculus Quotient Rule",
-      "norm_label": "testformatpolynomial"
-    },
-    {
-      "label": ".test_format_polynomial_basic()",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L123",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_testformatpolynomial_test_format_polynomial_basic",
-      "community": 32,
-      "community_name": "Calculus Quotient Rule",
-      "norm_label": ".test_format_polynomial_basic()"
-    },
-    {
-      "label": ".test_format_polynomial_floats()",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L129",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_testformatpolynomial_test_format_polynomial_floats",
-      "community": 32,
-      "community_name": "Calculus Quotient Rule",
-      "norm_label": ".test_format_polynomial_floats()"
-    },
-    {
-      "label": ".test_format_polynomial_empty()",
-      "file_type": "code",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L135",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_testformatpolynomial_test_format_polynomial_empty",
-      "community": 32,
-      "community_name": "Calculus Quotient Rule",
-      "norm_label": ".test_format_polynomial_empty()"
-    },
-    {
-      "label": "Test value and float type of PI constant.",
-      "file_type": "rationale",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L15",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_rationale_15",
-      "community": 32,
-      "community_name": "Calculus Quotient Rule",
-      "norm_label": "test value and float type of pi constant."
-    },
-    {
-      "label": "Test _product_tree returns 1 when start > end.",
-      "file_type": "rationale",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L22",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_rationale_22",
-      "community": 59,
-      "community_name": "n_permute_r",
-      "norm_label": "test _product_tree returns 1 when start > end."
-    },
-    {
-      "label": "Test _product_tree returns start when start == end.",
-      "file_type": "rationale",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L27",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_rationale_27",
-      "community": 59,
-      "community_name": "n_permute_r",
-      "norm_label": "test _product_tree returns start when start == end."
-    },
-    {
-      "label": "Test _product_tree returns start * end when start + 1 == end.",
-      "file_type": "rationale",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L32",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_rationale_32",
-      "community": 59,
-      "community_name": "n_permute_r",
-      "norm_label": "test _product_tree returns start * end when start + 1 == end."
-    },
-    {
-      "label": "Test _product_tree for larger ranges requiring recursive splitting.",
-      "file_type": "rationale",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L37",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_rationale_37",
-      "community": 59,
-      "community_name": "n_permute_r",
-      "norm_label": "test _product_tree for larger ranges requiring recursive splitting."
-    },
-    {
-      "label": "Test factorial of 0 and 1 returns 1.",
-      "file_type": "rationale",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L44",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_rationale_44",
-      "community": 18,
-      "community_name": "Factorial Discrete Module",
-      "norm_label": "test factorial of 0 and 1 returns 1."
-    },
-    {
-      "label": "Test factorial for positive integers.",
-      "file_type": "rationale",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L49",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_rationale_49",
-      "community": 18,
-      "community_name": "Factorial Discrete Module",
-      "norm_label": "test factorial for positive integers."
-    },
-    {
-      "label": "Test that non-integer inputs (including booleans) raise TypeError.",
-      "file_type": "rationale",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L54",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_rationale_54",
-      "community": 18,
-      "community_name": "Factorial Discrete Module",
-      "norm_label": "test that non-integer inputs (including booleans) raise typeerror."
-    },
-    {
-      "label": "Test that negative numbers raise ValueError.",
-      "file_type": "rationale",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L68",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_rationale_68",
-      "community": 18,
-      "community_name": "Factorial Discrete Module",
-      "norm_label": "test that negative numbers raise valueerror."
-    },
-    {
-      "label": "Test that input exceeding max limit raises ValueError.",
-      "file_type": "rationale",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L76",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_rationale_76",
-      "community": 18,
-      "community_name": "Factorial Discrete Module",
-      "norm_label": "test that input exceeding max limit raises valueerror."
-    },
-    {
-      "label": "Test factorial_decimal of 0 and 1 returns Decimal(1).",
-      "file_type": "rationale",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L83",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_rationale_83",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
-      "norm_label": "test factorial_decimal of 0 and 1 returns decimal(1)."
-    },
-    {
-      "label": "Test factorial_decimal for positive integers.",
-      "file_type": "rationale",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L88",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_rationale_88",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
-      "norm_label": "test factorial_decimal for positive integers."
-    },
-    {
-      "label": "Test that return value is of type Decimal.",
-      "file_type": "rationale",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L93",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_rationale_93",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
-      "norm_label": "test that return value is of type decimal."
-    },
-    {
-      "label": "Test that non-integer inputs raise TypeError.",
-      "file_type": "rationale",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L98",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_rationale_98",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
-      "norm_label": "test that non-integer inputs raise typeerror."
-    },
-    {
-      "label": "Test that negative numbers raise ValueError.",
-      "file_type": "rationale",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L112",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_rationale_112",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
-      "norm_label": "test that negative numbers raise valueerror."
-    },
-    {
-      "label": "Test that input exceeding max limit raises ValueError.",
-      "file_type": "rationale",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L117",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_rationale_117",
-      "community": 11,
-      "community_name": "Euler's Number Constants",
-      "norm_label": "test that input exceeding max limit raises valueerror."
-    },
-    {
-      "label": "Test format_polynomial with standard integer coefficients and powers.",
-      "file_type": "rationale",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L124",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_rationale_124",
-      "community": 32,
-      "community_name": "Calculus Quotient Rule",
-      "norm_label": "test format_polynomial with standard integer coefficients and powers."
-    },
-    {
-      "label": "Test format_polynomial with float coefficients.",
-      "file_type": "rationale",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L130",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_rationale_130",
-      "community": 32,
-      "community_name": "Calculus Quotient Rule",
-      "norm_label": "test format_polynomial with float coefficients."
-    },
-    {
-      "label": "Test format_polynomial with empty lists.",
-      "file_type": "rationale",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L136",
-      "_origin": "ast",
-      "id": "tests_test_math_utils_rationale_136",
-      "community": 32,
-      "community_name": "Calculus Quotient Rule",
-      "norm_label": "test format_polynomial with empty lists."
-    },
-    {
       "label": "test_mean.py",
       "file_type": "code",
       "source_file": "Tests/test_mean.py",
@@ -12173,8 +11667,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "tests_test_partitions",
-      "community": 133,
-      "community_name": "partition",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test_partitions.py"
     },
     {
@@ -12184,8 +11678,8 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "tests_test_partitions_test_partition_negative",
-      "community": 133,
-      "community_name": "partition",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test_partition_negative()"
     },
     {
@@ -12195,8 +11689,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "tests_test_partitions_test_partition_zero",
-      "community": 133,
-      "community_name": "partition",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test_partition_zero()"
     },
     {
@@ -12206,8 +11700,8 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "tests_test_partitions_test_partition_positive",
-      "community": 133,
-      "community_name": "partition",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test_partition_positive()"
     },
     {
@@ -12217,8 +11711,8 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "tests_test_partitions_test_partition_invalid_type",
-      "community": 133,
-      "community_name": "partition",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test_partition_invalid_type()"
     },
     {
@@ -12228,8 +11722,8 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "tests_test_partitions_test_partition_exceeds_upper_bound",
-      "community": 133,
-      "community_name": "partition",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test_partition_exceeds_upper_bound()"
     },
     {
@@ -12239,8 +11733,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "tests_test_partitions_approximation",
-      "community": 132,
-      "community_name": "partition_approximation",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test_partitions_approximation.py"
     },
     {
@@ -12250,8 +11744,8 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "tests_test_partitions_approximation_test_partition_approximation_zero",
-      "community": 132,
-      "community_name": "partition_approximation",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test_partition_approximation_zero()"
     },
     {
@@ -12261,8 +11755,8 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "tests_test_partitions_approximation_test_partition_approximation_positive",
-      "community": 132,
-      "community_name": "partition_approximation",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test_partition_approximation_positive()"
     },
     {
@@ -12272,8 +11766,8 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "tests_test_partitions_approximation_test_partition_approximation_negative",
-      "community": 132,
-      "community_name": "partition_approximation",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test_partition_approximation_negative()"
     },
     {
@@ -12283,8 +11777,8 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "tests_test_partitions_approximation_test_partition_approximation_invalid_type",
-      "community": 132,
-      "community_name": "partition_approximation",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test_partition_approximation_invalid_type()"
     },
     {
@@ -12294,8 +11788,8 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "tests_test_partitions_approximation_test_partition_approximation_exceeds_upper_bound",
-      "community": 132,
-      "community_name": "partition_approximation",
+      "community": 14,
+      "community_name": "Pascal's Triangle Combinatorics",
       "norm_label": "test_partition_approximation_exceeds_upper_bound()"
     },
     {
@@ -12646,8 +12140,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "tests_test_product_rule",
-      "community": 52,
-      "community_name": "TestCalculusDifferentiation",
+      "community": 46,
+      "community_name": "Polynomial Format Module",
       "norm_label": "test_product_rule.py"
     },
     {
@@ -12657,8 +12151,8 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "tests_test_product_rule_testproductrulederivative",
-      "community": 52,
-      "community_name": "TestCalculusDifferentiation",
+      "community": 46,
+      "community_name": "Polynomial Format Module",
       "norm_label": "testproductrulederivative"
     },
     {
@@ -12668,8 +12162,8 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "tests_test_product_rule_testproductrulederivative_test_product_rule_derivative_basic",
-      "community": 52,
-      "community_name": "TestCalculusDifferentiation",
+      "community": 46,
+      "community_name": "Polynomial Format Module",
       "norm_label": ".test_product_rule_derivative_basic()"
     },
     {
@@ -12679,8 +12173,8 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "tests_test_product_rule_testproductrulederivative_test_product_rule_derivative_complex",
-      "community": 52,
-      "community_name": "TestCalculusDifferentiation",
+      "community": 46,
+      "community_name": "Polynomial Format Module",
       "norm_label": ".test_product_rule_derivative_complex()"
     },
     {
@@ -12690,8 +12184,8 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "tests_test_product_rule_testproductrulederivative_test_product_rule_derivative_constant",
-      "community": 52,
-      "community_name": "TestCalculusDifferentiation",
+      "community": 46,
+      "community_name": "Polynomial Format Module",
       "norm_label": ".test_product_rule_derivative_constant()"
     },
     {
@@ -12701,8 +12195,8 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "tests_test_product_rule_testproductrulederivative_test_product_rule_derivative_multiple_terms",
-      "community": 52,
-      "community_name": "TestCalculusDifferentiation",
+      "community": 46,
+      "community_name": "Polynomial Format Module",
       "norm_label": ".test_product_rule_derivative_multiple_terms()"
     },
     {
@@ -12712,8 +12206,8 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "tests_test_product_rule_testproductrulederivative_test_product_rule_derivative_empty_polynomials",
-      "community": 52,
-      "community_name": "TestCalculusDifferentiation",
+      "community": 46,
+      "community_name": "Polynomial Format Module",
       "norm_label": ".test_product_rule_derivative_empty_polynomials()"
     },
     {
@@ -12723,8 +12217,8 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "tests_test_product_rule_testproductrulederivative_test_product_rule_derivative_floating_point",
-      "community": 52,
-      "community_name": "TestCalculusDifferentiation",
+      "community": 46,
+      "community_name": "Polynomial Format Module",
       "norm_label": ".test_product_rule_derivative_floating_point()"
     },
     {
@@ -12734,8 +12228,8 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "tests_test_product_rule_testproductrulederivative_test_product_rule_derivative_negative_powers",
-      "community": 52,
-      "community_name": "TestCalculusDifferentiation",
+      "community": 46,
+      "community_name": "Polynomial Format Module",
       "norm_label": ".test_product_rule_derivative_negative_powers()"
     },
     {
@@ -12745,8 +12239,8 @@
       "source_location": "L49",
       "_origin": "ast",
       "id": "tests_test_product_rule_testproductrulederivative_test_product_rule_derivative_zero_coefficients",
-      "community": 52,
-      "community_name": "TestCalculusDifferentiation",
+      "community": 46,
+      "community_name": "Polynomial Format Module",
       "norm_label": ".test_product_rule_derivative_zero_coefficients()"
     },
     {
@@ -12756,8 +12250,8 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "tests_test_product_rule_testproductrulederivative_test_product_rule_derivative_both_constants",
-      "community": 52,
-      "community_name": "TestCalculusDifferentiation",
+      "community": 46,
+      "community_name": "Polynomial Format Module",
       "norm_label": ".test_product_rule_derivative_both_constants()"
     },
     {
@@ -13438,8 +12932,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "tests_test_quotient_rule",
-      "community": 46,
-      "community_name": "Polynomial Format Module",
+      "community": 9,
+      "community_name": "Calculus Quotient Rule",
       "norm_label": "test_quotient_rule.py"
     },
     {
@@ -15330,8 +14824,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "tests_test_trinomial_theorem",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": "test_trinomial_theorem.py"
     },
     {
@@ -15341,8 +14835,8 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "tests_test_trinomial_theorem_testtrinomialtheorem",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": "testtrinomialtheorem"
     },
     {
@@ -15352,8 +14846,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "tests_test_trinomial_theorem_testtrinomialtheorem_test_expand_trinomial_n_0",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": ".test_expand_trinomial_n_0()"
     },
     {
@@ -15363,8 +14857,8 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "tests_test_trinomial_theorem_testtrinomialtheorem_test_expand_trinomial_n_1",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": ".test_expand_trinomial_n_1()"
     },
     {
@@ -15374,8 +14868,8 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "tests_test_trinomial_theorem_testtrinomialtheorem_test_expand_trinomial_n_2",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": ".test_expand_trinomial_n_2()"
     },
     {
@@ -15385,8 +14879,8 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "tests_test_trinomial_theorem_testtrinomialtheorem_test_expand_trinomial_different_variables",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": ".test_expand_trinomial_different_variables()"
     },
     {
@@ -15396,8 +14890,8 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "tests_test_trinomial_theorem_testtrinomialtheorem_test_expand_trinomial_long_variable_names",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": ".test_expand_trinomial_long_variable_names()"
     },
     {
@@ -15407,63 +14901,52 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "tests_test_trinomial_theorem_testtrinomialtheorem_test_expand_trinomial_negative_n",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": ".test_expand_trinomial_negative_n()"
-    },
-    {
-      "label": ".test_expand_trinomial_exceeds_max_n()",
-      "file_type": "code",
-      "source_file": "Tests/test_trinomial_theorem.py",
-      "source_location": "L42",
-      "_origin": "ast",
-      "id": "tests_test_trinomial_theorem_testtrinomialtheorem_test_expand_trinomial_exceeds_max_n",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
-      "norm_label": ".test_expand_trinomial_exceeds_max_n()"
     },
     {
       "label": ".test_expand_trinomial_invalid_types()",
       "file_type": "code",
       "source_file": "Tests/test_trinomial_theorem.py",
-      "source_location": "L46",
+      "source_location": "L42",
       "_origin": "ast",
       "id": "tests_test_trinomial_theorem_testtrinomialtheorem_test_expand_trinomial_invalid_types",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": ".test_expand_trinomial_invalid_types()"
     },
     {
       "label": ".test_trinomial_coefficient_positive_values()",
       "file_type": "code",
       "source_file": "Tests/test_trinomial_theorem.py",
-      "source_location": "L54",
+      "source_location": "L50",
       "_origin": "ast",
       "id": "tests_test_trinomial_theorem_testtrinomialtheorem_test_trinomial_coefficient_positive_values",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": ".test_trinomial_coefficient_positive_values()"
     },
     {
       "label": ".test_trinomial_coefficient_i_plus_j_greater_than_n()",
       "file_type": "code",
       "source_file": "Tests/test_trinomial_theorem.py",
-      "source_location": "L61",
+      "source_location": "L57",
       "_origin": "ast",
       "id": "tests_test_trinomial_theorem_testtrinomialtheorem_test_trinomial_coefficient_i_plus_j_greater_than_n",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": ".test_trinomial_coefficient_i_plus_j_greater_than_n()"
     },
     {
       "label": ".test_trinomial_coefficient_negative_indices()",
       "file_type": "code",
       "source_file": "Tests/test_trinomial_theorem.py",
-      "source_location": "L65",
+      "source_location": "L61",
       "_origin": "ast",
       "id": "tests_test_trinomial_theorem_testtrinomialtheorem_test_trinomial_coefficient_negative_indices",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": ".test_trinomial_coefficient_negative_indices()"
     },
     {
@@ -15473,8 +14956,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "tests_test_trinomial_theorem_general_term",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": "test_trinomial_theorem_general_term.py"
     },
     {
@@ -15484,8 +14967,8 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "tests_test_trinomial_theorem_general_term_testtrinomialgeneralterm",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": "testtrinomialgeneralterm"
     },
     {
@@ -15495,8 +14978,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "tests_test_trinomial_theorem_general_term_testtrinomialgeneralterm_test_trinomial_general_term_happy_path",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": ".test_trinomial_general_term_happy_path()"
     },
     {
@@ -15506,8 +14989,8 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "tests_test_trinomial_theorem_general_term_testtrinomialgeneralterm_test_trinomial_general_term_floats",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": ".test_trinomial_general_term_floats()"
     },
     {
@@ -15517,8 +15000,8 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "tests_test_trinomial_theorem_general_term_testtrinomialgeneralterm_test_trinomial_general_term_negative_base_values",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": ".test_trinomial_general_term_negative_base_values()"
     },
     {
@@ -15528,8 +15011,8 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "tests_test_trinomial_theorem_general_term_testtrinomialgeneralterm_test_trinomial_general_term_zero",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": ".test_trinomial_general_term_zero()"
     },
     {
@@ -15539,8 +15022,8 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "tests_test_trinomial_theorem_general_term_testtrinomialgeneralterm_test_trinomial_general_term_boundary_cases",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": ".test_trinomial_general_term_boundary_cases()"
     },
     {
@@ -15550,8 +15033,8 @@
       "source_location": "L51",
       "_origin": "ast",
       "id": "tests_test_trinomial_theorem_general_term_testtrinomialgeneralterm_test_trinomial_general_term_expansion_sum_property",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": ".test_trinomial_general_term_expansion_sum_property()"
     },
     {
@@ -15561,8 +15044,8 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "tests_test_trinomial_theorem_general_term_testtrinomialgeneralterm_test_trinomial_general_term_zero_bases",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": ".test_trinomial_general_term_zero_bases()"
     },
     {
@@ -15572,8 +15055,8 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "tests_test_trinomial_theorem_general_term_testtrinomialgeneralterm_test_trinomial_general_term_invalid_values",
-      "community": 25,
-      "community_name": "Partition Test Discretetest Module",
+      "community": 1,
+      "community_name": "Binomial Theorem",
       "norm_label": ".test_trinomial_general_term_invalid_values()"
     },
     {
@@ -18891,22 +18374,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "Math/Algebra/Polynomials/quartic_formula.py",
-      "source_location": "L178",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "math_algebra_polynomials_quartic_formula",
-      "target": "math_algebra_polynomials_quartic_formula_quartic_formula",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Math/Algebra/Polynomials/quartic_formula.py",
       "source_location": "L134",
       "weight": 1.0,
       "_origin": "ast",
       "source": "math_algebra_polynomials_quartic_formula",
-      "target": "math_algebra_polynomials_quartic_formula_select_best_branch",
+      "target": "math_algebra_polynomials_quartic_formula_quartic_formula",
       "confidence_score": 1.0
     },
     {
@@ -18926,7 +18398,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "Math/Algebra/Polynomials/quartic_formula.py",
-      "source_location": "L216",
+      "source_location": "L172",
       "weight": 1.0,
       "_origin": "ast",
       "source": "math_algebra_polynomials_quartic_formula_quartic_formula",
@@ -18973,7 +18445,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "Math/Algebra/Polynomials/quartic_formula.py",
-      "source_location": "L217",
+      "source_location": "L173",
       "weight": 1.0,
       "_origin": "ast",
       "source": "math_algebra_polynomials_quartic_formula_quartic_formula",
@@ -19016,6 +18488,18 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Math/Algebra/Polynomials/quartic_formula.py",
+      "source_location": "L185",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "math_algebra_polynomials_quartic_formula_quartic_formula",
+      "target": "math_algebra_polynomials_quartic_formula_compute_branch_roots",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "Math/Algebra/Polynomials/quartic_formula.py",
@@ -19023,18 +18507,6 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "math_algebra_polynomials_quartic_formula_rationale_52",
-      "target": "math_algebra_polynomials_quartic_formula_compute_branch_roots",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Math/Algebra/Polynomials/quartic_formula.py",
-      "source_location": "L166",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "math_algebra_polynomials_quartic_formula_select_best_branch",
       "target": "math_algebra_polynomials_quartic_formula_compute_branch_roots",
       "confidence_score": 1.0
     },
@@ -19063,6 +18535,18 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Math/Algebra/Polynomials/quartic_formula.py",
+      "source_location": "L188",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "math_algebra_polynomials_quartic_formula_quartic_formula",
+      "target": "math_algebra_polynomials_quartic_formula_compute_residual_error",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "Math/Algebra/Polynomials/quartic_formula.py",
@@ -19070,18 +18554,6 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "math_algebra_polynomials_quartic_formula_rationale_118",
-      "target": "math_algebra_polynomials_quartic_formula_compute_residual_error",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Math/Algebra/Polynomials/quartic_formula.py",
-      "source_location": "L169",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "math_algebra_polynomials_quartic_formula_select_best_branch",
       "target": "math_algebra_polynomials_quartic_formula_compute_residual_error",
       "confidence_score": 1.0
     },
@@ -19110,36 +18582,13 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Math/Algebra/Polynomials/quartic_formula.py",
-      "source_location": "L220",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "math_algebra_polynomials_quartic_formula_quartic_formula",
-      "target": "math_algebra_polynomials_quartic_formula_select_best_branch",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "Math/Algebra/Polynomials/quartic_formula.py",
-      "source_location": "L144",
+      "source_location": "L141",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "math_algebra_polynomials_quartic_formula_rationale_144",
-      "target": "math_algebra_polynomials_quartic_formula_select_best_branch",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "Math/Algebra/Polynomials/quartic_formula.py",
-      "source_location": "L185",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "math_algebra_polynomials_quartic_formula_rationale_185",
+      "source": "math_algebra_polynomials_quartic_formula_rationale_141",
       "target": "math_algebra_polynomials_quartic_formula_quartic_formula",
       "confidence_score": 1.0
     },
@@ -22930,6 +22379,18 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Math/Discrete_Math/Combinatorics/binomial_theorem.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "math_discrete_math_combinatorics_binomial_theorem_expand_binomial",
+      "target": "math_discrete_math_combinatorics_binomial_theorem_binomial_coefficient",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "Math/Discrete_Math/Combinatorics/binomial_theorem.py",
@@ -23316,6 +22777,18 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "math_discrete_math_combinatorics_trinomial_theorem",
+      "target": "math_discrete_math_combinatorics_combination_ncr",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Math/Discrete_Math/Combinatorics/trinomial_theorem.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "math_discrete_math_combinatorics_trinomial_theorem_expand_trinomial",
       "target": "math_discrete_math_combinatorics_combination_ncr",
       "confidence_score": 1.0
     },
@@ -23880,7 +23353,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Tests/test_trinomial_theorem.py",
-      "source_location": "L62",
+      "source_location": "L58",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_trinomial_theorem_testtrinomialtheorem_test_trinomial_coefficient_i_plus_j_greater_than_n",
@@ -23892,7 +23365,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Tests/test_trinomial_theorem.py",
-      "source_location": "L66",
+      "source_location": "L62",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_trinomial_theorem_testtrinomialtheorem_test_trinomial_coefficient_negative_indices",
@@ -23904,7 +23377,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Tests/test_trinomial_theorem.py",
-      "source_location": "L55",
+      "source_location": "L51",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_trinomial_theorem_testtrinomialtheorem_test_trinomial_coefficient_positive_values",
@@ -23952,18 +23425,6 @@
       "confidence_score": 1.0,
       "source_file": "Tests/test_trinomial_theorem.py",
       "source_location": "L44",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_trinomial_theorem_testtrinomialtheorem_test_expand_trinomial_exceeds_max_n",
-      "target": "math_discrete_math_combinatorics_trinomial_theorem_expand_trinomial"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Tests/test_trinomial_theorem.py",
-      "source_location": "L48",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_trinomial_theorem_testtrinomialtheorem_test_expand_trinomial_invalid_types",
@@ -30503,18 +29964,6 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils",
-      "target": "math_utils_math_utils",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "Tests/test_NumericalMethods.py",
       "source_location": "L7",
       "weight": 1.0,
@@ -30557,66 +30006,6 @@
       "source": "math_utils_math_utils_rationale_10",
       "target": "math_utils_math_utils_product_tree",
       "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils",
-      "target": "math_utils_math_utils_product_tree",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L38",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testproducttree_test_product_tree_recursive_range",
-      "target": "math_utils_math_utils_product_tree"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L28",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testproducttree_test_start_equals_end",
-      "target": "math_utils_math_utils_product_tree"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L23",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testproducttree_test_start_greater_than_end",
-      "target": "math_utils_math_utils_product_tree"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L33",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testproducttree_test_start_plus_one_equals_end",
-      "target": "math_utils_math_utils_product_tree"
     },
     {
       "relation": "rationale_for",
@@ -30724,78 +30113,6 @@
       "source": "tests_test_discretemath_test_factorial_zero",
       "target": "math_utils_math_utils_factorial",
       "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils",
-      "target": "math_utils_math_utils_factorial",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L78",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testfactorial_test_factorial_exceeds_limit",
-      "target": "math_utils_math_utils_factorial"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L70",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testfactorial_test_factorial_negative_value_error",
-      "target": "math_utils_math_utils_factorial"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L50",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testfactorial_test_factorial_positive_integers",
-      "target": "math_utils_math_utils_factorial"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L56",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testfactorial_test_factorial_type_errors",
-      "target": "math_utils_math_utils_factorial"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L45",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testfactorial_test_factorial_zero_and_one",
-      "target": "math_utils_math_utils_factorial"
     },
     {
       "relation": "imports",
@@ -30992,90 +30309,6 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils",
-      "target": "math_utils_math_utils_factorial_decimal",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L119",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testfactorialdecimal_test_factorial_decimal_exceeds_limit",
-      "target": "math_utils_math_utils_factorial_decimal"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L114",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testfactorialdecimal_test_factorial_decimal_negative_value_error",
-      "target": "math_utils_math_utils_factorial_decimal"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L89",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testfactorialdecimal_test_factorial_decimal_positive_integers",
-      "target": "math_utils_math_utils_factorial_decimal"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L94",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testfactorialdecimal_test_factorial_decimal_return_type",
-      "target": "math_utils_math_utils_factorial_decimal"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L100",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testfactorialdecimal_test_factorial_decimal_type_errors",
-      "target": "math_utils_math_utils_factorial_decimal"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L84",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testfactorialdecimal_test_factorial_decimal_zero_and_one",
-      "target": "math_utils_math_utils_factorial_decimal"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "Tests/test_NumericalMethods.py",
       "source_location": "L7",
       "weight": 1.0,
@@ -31237,54 +30470,6 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_calculus_testquotientrule_test_format_polynomial_quotient_rule_negative_powers",
-      "target": "math_utils_math_utils_format_polynomial"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils",
-      "target": "math_utils_math_utils_format_polynomial",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L127",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testformatpolynomial_test_format_polynomial_basic",
-      "target": "math_utils_math_utils_format_polynomial"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L137",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testformatpolynomial_test_format_polynomial_empty",
-      "target": "math_utils_math_utils_format_polynomial"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L133",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testformatpolynomial_test_format_polynomial_floats",
       "target": "math_utils_math_utils_format_polynomial"
     },
     {
@@ -38635,479 +37820,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L42",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils",
-      "target": "tests_test_math_utils_testfactorial",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L81",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils",
-      "target": "tests_test_math_utils_testfactorialdecimal",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L122",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils",
-      "target": "tests_test_math_utils_testformatpolynomial",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L13",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils",
-      "target": "tests_test_math_utils_testpiconstant",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L20",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils",
-      "target": "tests_test_math_utils_testproducttree",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L14",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testpiconstant",
-      "target": "tests_test_math_utils_testpiconstant_test_pi_value_and_type",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L15",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_rationale_15",
-      "target": "tests_test_math_utils_testpiconstant_test_pi_value_and_type",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L36",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testproducttree",
-      "target": "tests_test_math_utils_testproducttree_test_product_tree_recursive_range",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L26",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testproducttree",
-      "target": "tests_test_math_utils_testproducttree_test_start_equals_end",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L21",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testproducttree",
-      "target": "tests_test_math_utils_testproducttree_test_start_greater_than_end",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L31",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testproducttree",
-      "target": "tests_test_math_utils_testproducttree_test_start_plus_one_equals_end",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L22",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_rationale_22",
-      "target": "tests_test_math_utils_testproducttree_test_start_greater_than_end",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L27",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_rationale_27",
-      "target": "tests_test_math_utils_testproducttree_test_start_equals_end",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L32",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_rationale_32",
-      "target": "tests_test_math_utils_testproducttree_test_start_plus_one_equals_end",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L37",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_rationale_37",
-      "target": "tests_test_math_utils_testproducttree_test_product_tree_recursive_range",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L75",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testfactorial",
-      "target": "tests_test_math_utils_testfactorial_test_factorial_exceeds_limit",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L67",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testfactorial",
-      "target": "tests_test_math_utils_testfactorial_test_factorial_negative_value_error",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L48",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testfactorial",
-      "target": "tests_test_math_utils_testfactorial_test_factorial_positive_integers",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L53",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testfactorial",
-      "target": "tests_test_math_utils_testfactorial_test_factorial_type_errors",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L43",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testfactorial",
-      "target": "tests_test_math_utils_testfactorial_test_factorial_zero_and_one",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L44",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_rationale_44",
-      "target": "tests_test_math_utils_testfactorial_test_factorial_zero_and_one",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L49",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_rationale_49",
-      "target": "tests_test_math_utils_testfactorial_test_factorial_positive_integers",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L54",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_rationale_54",
-      "target": "tests_test_math_utils_testfactorial_test_factorial_type_errors",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L68",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_rationale_68",
-      "target": "tests_test_math_utils_testfactorial_test_factorial_negative_value_error",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L76",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_rationale_76",
-      "target": "tests_test_math_utils_testfactorial_test_factorial_exceeds_limit",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L116",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testfactorialdecimal",
-      "target": "tests_test_math_utils_testfactorialdecimal_test_factorial_decimal_exceeds_limit",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L111",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testfactorialdecimal",
-      "target": "tests_test_math_utils_testfactorialdecimal_test_factorial_decimal_negative_value_error",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L87",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testfactorialdecimal",
-      "target": "tests_test_math_utils_testfactorialdecimal_test_factorial_decimal_positive_integers",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L92",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testfactorialdecimal",
-      "target": "tests_test_math_utils_testfactorialdecimal_test_factorial_decimal_return_type",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L97",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testfactorialdecimal",
-      "target": "tests_test_math_utils_testfactorialdecimal_test_factorial_decimal_type_errors",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L82",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testfactorialdecimal",
-      "target": "tests_test_math_utils_testfactorialdecimal_test_factorial_decimal_zero_and_one",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L83",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_rationale_83",
-      "target": "tests_test_math_utils_testfactorialdecimal_test_factorial_decimal_zero_and_one",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L88",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_rationale_88",
-      "target": "tests_test_math_utils_testfactorialdecimal_test_factorial_decimal_positive_integers",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L93",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_rationale_93",
-      "target": "tests_test_math_utils_testfactorialdecimal_test_factorial_decimal_return_type",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L98",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_rationale_98",
-      "target": "tests_test_math_utils_testfactorialdecimal_test_factorial_decimal_type_errors",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L112",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_rationale_112",
-      "target": "tests_test_math_utils_testfactorialdecimal_test_factorial_decimal_negative_value_error",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L117",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_rationale_117",
-      "target": "tests_test_math_utils_testfactorialdecimal_test_factorial_decimal_exceeds_limit",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L123",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testformatpolynomial",
-      "target": "tests_test_math_utils_testformatpolynomial_test_format_polynomial_basic",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L135",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testformatpolynomial",
-      "target": "tests_test_math_utils_testformatpolynomial_test_format_polynomial_empty",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L129",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_testformatpolynomial",
-      "target": "tests_test_math_utils_testformatpolynomial_test_format_polynomial_floats",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L124",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_rationale_124",
-      "target": "tests_test_math_utils_testformatpolynomial_test_format_polynomial_basic",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L130",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_rationale_130",
-      "target": "tests_test_math_utils_testformatpolynomial_test_format_polynomial_floats",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_math_utils.py",
-      "source_location": "L136",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_math_utils_rationale_136",
-      "target": "tests_test_math_utils_testformatpolynomial_test_format_polynomial_empty",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "Tests/test_mean.py",
       "source_location": "L7",
       "weight": 1.0,
@@ -42902,17 +41614,6 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_trinomial_theorem_testtrinomialtheorem",
-      "target": "tests_test_trinomial_theorem_testtrinomialtheorem_test_expand_trinomial_exceeds_max_n",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Tests/test_trinomial_theorem.py",
-      "source_location": "L46",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_trinomial_theorem_testtrinomialtheorem",
       "target": "tests_test_trinomial_theorem_testtrinomialtheorem_test_expand_trinomial_invalid_types",
       "confidence_score": 1.0
     },
@@ -42975,7 +41676,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "Tests/test_trinomial_theorem.py",
-      "source_location": "L61",
+      "source_location": "L57",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_trinomial_theorem_testtrinomialtheorem",
@@ -42986,7 +41687,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "Tests/test_trinomial_theorem.py",
-      "source_location": "L65",
+      "source_location": "L61",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_trinomial_theorem_testtrinomialtheorem",
@@ -42997,7 +41698,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "Tests/test_trinomial_theorem.py",
-      "source_location": "L54",
+      "source_location": "L50",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_trinomial_theorem_testtrinomialtheorem",
@@ -43818,5 +42519,5 @@
       "source_file": "handoff.md"
     }
   ],
-  "built_at_commit": "d718fe44e1c381c7647288bf52b0e052ca49634d"
+  "built_at_commit": "539d5f4ddf28716f2cf9fd568496c5df7cde001b"
 }

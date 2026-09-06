@@ -130,7 +130,5 @@
   "128": "Probability_Axioms/__init__.py",
   "129": "utils/__init__.py",
   "130": "area_of_circle",
-  "131": "TestChainRuleFormatPolynomial",
-  "132": "partition_approximation",
-  "133": "partition"
+  "131": "TestChainRuleFormatPolynomial"
 }
