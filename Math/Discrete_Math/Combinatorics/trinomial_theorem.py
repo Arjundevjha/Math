@@ -35,10 +35,13 @@ def expand_trinomial(a: str, b: str, c: str, n: int) -> str:
     Returns:
     str: The expanded form of the trinomial.
     """
+    # Security: Validate input type and upper bound limit to prevent DoS via excessive CPU/memory resource exhaustion
     if not isinstance(n, int) or isinstance(n, bool):
         raise TypeError("Power n must be an integer.")
     if n < 0:
         raise ValueError("Power n must be non-negative.")
+    if n > 1000:
+        raise ValueError("Power n exceeds maximum limit of 1000.")
     
     result = []
     # Expand using trinomial theorem: (a+b+c)ⁿ = Σ C(n,i)×C(n-i,j) × aⁱ × bʲ × cᵏ
