@@ -50,6 +50,12 @@ class TestRamanujanAlgorithm:
         assert isinstance(pi_0, Decimal)
         assert str(pi_0).startswith("3")
 
+    def test_calculate_pi_ramanujan_terms_boundary(self):
+        """Test boundary conditions for num_terms (lower bound = 1)."""
+        pi_1 = calculate_pi_ramanujan(num_decimal_places=10, num_terms=1)
+        assert isinstance(pi_1, Decimal)
+        assert str(pi_1).startswith("3.141592")
+
     def test_calculate_pi_ramanujan_invalid_decimal_places(self):
         """Test invalid num_decimal_places values raise ValueError."""
         invalid_values = [-1, -10, 10001, True, False, 5.5, "50"]

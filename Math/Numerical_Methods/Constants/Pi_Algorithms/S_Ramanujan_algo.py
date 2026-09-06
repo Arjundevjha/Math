@@ -9,13 +9,13 @@ def calculate_pi_ramanujan(num_decimal_places: int = 50, num_terms: int = 10) ->
     Formula: 1/π = (2√2/9801) × Σ[(4k)! × (1103 + 26390k)] / [(k!)⁴ × 396^(4k)]
 
     Parameters:
-    num_decimal_places (int): The desired number of decimal places for pi (default: 50).
-    num_terms (int): The number of terms to use in the series summation (default: 10).
+    num_decimal_places (int): The desired number of decimal places for pi (default: 50, max: 10000).
+    num_terms (int): The number of terms to use in the series summation (default: 10, max: 10000).
 
     Returns:
     Decimal: The calculated value of pi.
     """
-    # Validate parameters to prevent Denial of Service (DoS) via excessive precision or iterations
+    # Security: Validate inputs to prevent Denial of Service (DoS) via resource exhaustion or unbounded iterations
     if not isinstance(num_decimal_places, int) or isinstance(num_decimal_places, bool) or num_decimal_places < 0 or num_decimal_places > 10000:
         raise ValueError("num_decimal_places must be an integer between 0 and 10000.")
     if not isinstance(num_terms, int) or isinstance(num_terms, bool) or num_terms < 1 or num_terms > 10000:
