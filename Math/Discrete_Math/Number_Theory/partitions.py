@@ -21,7 +21,6 @@ def partition(n: int) -> int:
     if n > 10000:
         raise ValueError("n exceeds maximum limit of 10000.")
 
-
     # Optimization: Use Euler's pentagonal number theorem to calculate
     # partitions in O(n sqrt(n)) time instead of O(n^2) dynamic programming.
     # Recurrence: p(n) = sum_{k != 0} (-1)^(k-1) * p(n - g_k), where
@@ -42,12 +41,26 @@ def partition(n: int) -> int:
     partitions = [0] * (n + 1)
     partitions[0] = 1
 
+    num_pent = len(pentagonals)
+    active = 0
+    active_pos = []
+    active_neg = []
+
     for i in range(1, n + 1):
+        if active < num_pent and pentagonals[active][0] == i:
+            while active < num_pent and pentagonals[active][0] <= i:
+                g, sign = pentagonals[active]
+                if sign == 1:
+                    active_pos.append(g)
+                else:
+                    active_neg.append(g)
+                active += 1
+
         total = 0
-        for g, sign in pentagonals:
-            if g > i:
-                break
-            total += sign * partitions[i - g]
+        for g in active_pos:
+            total += partitions[i - g]
+        for g in active_neg:
+            total -= partitions[i - g]
         partitions[i] = total
 
     return partitions[n]
