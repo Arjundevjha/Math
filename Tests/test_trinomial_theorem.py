@@ -39,6 +39,10 @@ class TestTrinomialTheorem(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Power n must be non-negative."):
             expand_trinomial("a", "b", "c", -1)
 
+    def test_expand_trinomial_exceeds_max_n(self):
+        with self.assertRaisesRegex(ValueError, "Power n exceeds maximum limit of 1000."):
+            expand_trinomial("a", "b", "c", 1001)
+
     def test_expand_trinomial_invalid_types(self):
         with self.assertRaises(TypeError):
             expand_trinomial("a", "b", "c", True)
