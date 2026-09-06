@@ -12,8 +12,14 @@ def partition_approximation(num: int) -> int:
     Returns:
     int: An integer approximation of p(n).
     """
+    # Security: Validate input parameter type and upper bound to prevent DoS via CPU/memory exhaustion
+    if not isinstance(num, int) or isinstance(num, bool):
+        raise TypeError("num must be an integer.")
     if num < 0:
         raise ValueError("Number must be a non-negative integer.")
+    if num > 10000:
+        raise ValueError("num exceeds maximum limit of 10000.")
+
     if num == 0:
         return 1
 
