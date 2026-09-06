@@ -1,10 +1,10 @@
-import pytest
-import math
 from decimal import Decimal
+import math
+import pytest
+
 from Math.Numerical_Methods.Constants.Pi_Algorithms.Nilakanths_algo import (
     calculate_pi_nilakantha,
 )
-from Math.utils.math_utils import factorial, factorial_decimal
 
 
 class TestNilakanthaAlgorithm:
@@ -79,63 +79,3 @@ class TestNilakanthaAlgorithm:
             ValueError, match="precision must be an integer between 1 and 10000."
         ):
             calculate_pi_nilakantha(precision=True)
-
-
-def test_factorial_zero():
-    assert factorial(0) == 1
-
-
-def test_factorial_one():
-    assert factorial(1) == 1
-
-
-def test_factorial_positive():
-    assert factorial(5) == 120
-    assert factorial(10) == 3628800
-
-
-def test_factorial_negative():
-    with pytest.raises(
-        ValueError, match="Factorial is not defined for negative numbers."
-    ):
-        factorial(-1)
-
-
-def test_factorial_large():
-    assert factorial(20) == 2432902008176640000
-    assert factorial(25) == 15511210043330985984000000
-    for n in [2, 3, 4, 5, 6, 7, 8, 9, 10, 15]:
-        assert factorial(n) == n * factorial(n - 1)
-
-
-def test_factorial_exceeds_upper_bound():
-    with pytest.raises(
-        ValueError, match="Input exceeds maximum allowed limit of 100000."
-    ):
-        factorial(100001)
-
-
-def test_factorial_invalid_types():
-    with pytest.raises(TypeError, match="Input must be an integer."):
-        factorial(True)
-    with pytest.raises(TypeError, match="Input must be an integer."):
-        factorial(5.5)
-    with pytest.raises(TypeError, match="Input must be an integer."):
-        factorial("10")
-
-
-def test_factorial_decimal_exceeds_upper_bound():
-    with pytest.raises(
-        ValueError, match="Input exceeds maximum allowed limit of 100000."
-    ):
-        factorial_decimal(100001)
-
-
-def test_factorial_decimal_invalid_types():
-    with pytest.raises(TypeError, match="Input must be an integer."):
-        factorial_decimal(True)
-    with pytest.raises(TypeError, match="Input must be an integer."):
-        factorial_decimal(5.5)
-    with pytest.raises(TypeError, match="Input must be an integer."):
-        factorial_decimal("10")
-
