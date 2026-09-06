@@ -131,6 +131,50 @@ def _compute_residual_error(
     )
 
 
+def _select_best_branch(
+    ca: complex,
+    cb: complex,
+    cc: complex,
+    cd: complex,
+    ce: complex,
+    base_U: complex,
+    p1: complex,
+    shift: complex,
+) -> Tuple[complex, complex, complex, complex]:
+    """
+    Evaluate candidate roots across cube root branches of U to find the set
+    with minimum residual error.
+
+    Parameters:
+    ca, cb, cc, cd, ce (complex): Complex coefficients of the quartic equation.
+    base_U (complex): Base cube root term.
+    p1 (complex): Invariant polynomial term p1.
+    shift (complex): Shift value -b / (4a).
+
+    Returns:
+    Tuple[complex, complex, complex, complex]: The best candidate roots.
+    """
+    cube_root_2 = 2.0 ** (1.0 / 3.0)
+    omega = complex(-0.5, 0.8660254037844386)
+
+    best_roots = None
+    best_error = float("inf")
+
+    # Evaluate all 3 cube root branches of U to find the optimal branch
+    for k in range(3):
+        U = base_U * (omega**k)
+        roots = _compute_branch_roots(
+            ca, cb, cc, cd, U, p1, cube_root_2, shift
+        )
+        err = _compute_residual_error(ca, cb, cc, cd, ce, roots)
+
+        if err < best_error:
+            best_error = err
+            best_roots = roots
+
+    return best_roots  # type: ignore[return-value]
+
+
 def quartic_formula(
     a: Union[float, int],
     b: Union[float, int],
@@ -171,24 +215,6 @@ def quartic_formula(
 
     p1, p2 = _compute_invariants(ca, cb, cc, cd, ce)
     base_U = _compute_base_u(p1, p2)
-
-    cube_root_2 = 2.0 ** (1.0 / 3.0)
-    omega = complex(-0.5, 0.8660254037844386)
     shift = -cb / (4.0 * ca)
 
-    best_roots = None
-    best_error = float("inf")
-
-    # Evaluate all 3 cube root branches of U to find the optimal branch
-    for k in range(3):
-        U = base_U * (omega**k)
-        roots = _compute_branch_roots(
-            ca, cb, cc, cd, U, p1, cube_root_2, shift
-        )
-        err = _compute_residual_error(ca, cb, cc, cd, ce, roots)
-
-        if err < best_error:
-            best_error = err
-            best_roots = roots
-
-    return best_roots
+    return _select_best_branch(ca, cb, cc, cd, ce, base_U, p1, shift)
