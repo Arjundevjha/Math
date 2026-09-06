@@ -51,14 +51,11 @@
   "49": "Euclidean Area (Square)",
   "50": "Euclidean Volume (Cuboid)",
   "51": "Inverse Trigonometry (Arctan)",
-  "52": "TestCalculusDifferentiation",
   "53": "Trigonometric Tangent Functions",
   "54": "Compound Interest Math",
   "55": "Trinomial General Module",
   "56": "Euclidean Area (Triangle)",
-  "57": "volume_of_cone",
   "58": "Trigonometric Sine Functions",
-  "59": "n_permute_r",
   "60": "Inverse Trigonometry (Arctan)",
   "61": "Inverse Trigonometry (Arctan)",
   "62": "Inverse Trigonometry (Arcsin)",
@@ -128,7 +125,5 @@
   "126": "Distributions/__init__.py",
   "127": "Probability_and_Statistics/__init__.py",
   "128": "Probability_Axioms/__init__.py",
-  "129": "utils/__init__.py",
-  "130": "area_of_circle",
-  "131": "TestChainRuleFormatPolynomial"
+  "129": "utils/__init__.py"
 }
