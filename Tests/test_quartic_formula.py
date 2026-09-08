@@ -12,8 +12,9 @@ from Math.Algebra.Polynomials.quartic_formula import (
 
 def verify_roots(expected_roots, actual_roots, tol=1e-7):
     """
-    Helper function to verify roots, accounting for multiplicity and floating point inaccuracies.
-    Ensures that each expected root has exactly one corresponding actual root.
+    Helper function to verify roots, accounting for multiplicity and
+    floating point inaccuracies. Ensures that each expected root has
+    exactly one corresponding actual root.
     """
     roots_list = list(actual_roots)
     for expected in expected_roots:
@@ -32,7 +33,8 @@ def verify_roots(expected_roots, actual_roots, tol=1e-7):
 
 def assert_evaluates_to_zero(a, b, c, d, e, roots, tol=1e-6):
     """
-    Helper function to verify that ax^4 + bx^3 + cx^2 + dx + e = 0 for each root.
+    Helper function to verify that ax^4 + bx^3 + cx^2 + dx + e = 0
+    for each root.
     """
     assert len(roots) == 4, f"Expected 4 roots, got {len(roots)}"
     for root in roots:
@@ -113,7 +115,8 @@ def test_quartic_formula_negative_a():
 def test_quartic_formula_value_error():
     # a = 0 should raise ValueError
     with pytest.raises(
-        ValueError, match="Coefficient 'a' cannot be zero for a quartic equation."
+        ValueError,
+        match="Coefficient 'a' cannot be zero for a quartic equation.",
     ):
         quartic_formula(0, 1, 1, 1, 1)
 
@@ -128,8 +131,15 @@ def test_quartic_formula_mixed_roots():
 
 
 def test_quartic_formula_helpers():
-    # Test helper functions directly for (x-1)(x-2)(x-3)(x-4) = x^4 - 10x^3 + 35x^2 - 50x + 24
-    ca, cb, cc, cd, ce = complex(1), complex(-10), complex(35), complex(-50), complex(24)
+    # Test helper functions directly for equation
+    # (x-1)(x-2)(x-3)(x-4) = x^4 - 10x^3 + 35x^2 - 50x + 24
+    ca, cb, cc, cd, ce = (
+        complex(1),
+        complex(-10),
+        complex(35),
+        complex(-50),
+        complex(24),
+    )
     p1, p2 = _compute_invariants(ca, cb, cc, cd, ce)
     assert isinstance(p1, complex)
     assert isinstance(p2, complex)
@@ -139,7 +149,9 @@ def test_quartic_formula_helpers():
 
     cube_root_2 = 2.0 ** (1.0 / 3.0)
     shift = -cb / (4.0 * ca)
-    roots = _compute_branch_roots(ca, cb, cc, cd, base_u, p1, cube_root_2, shift)
+    roots = _compute_branch_roots(
+        ca, cb, cc, cd, base_u, p1, cube_root_2, shift
+    )
     assert len(roots) == 4
 
     err = _compute_residual_error(ca, cb, cc, cd, ce, roots)
