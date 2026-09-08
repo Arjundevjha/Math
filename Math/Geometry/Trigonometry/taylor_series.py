@@ -21,9 +21,14 @@ def sine_taylor(radians: Union[int, float], terms: int = 50) -> float:
     term = float(radians)
     radians_sq = float(radians * radians)
 
+    # Optimization: Terminate early when floating-point precision limit is reached
+    # (i.e. term becomes smaller than double-precision float resolution relative to accumulated sum).
     for idx in range(3, terms * 2, 2):
         term *= -radians_sq / ((idx - 1) * idx)
-        sine_value += term
+        new_val = sine_value + term
+        if new_val == sine_value:
+            break
+        sine_value = new_val
 
     return sine_value
 
@@ -47,8 +52,13 @@ def cosine_taylor(radians: Union[int, float], terms: int = 50) -> float:
     term = 1.0
     radians_sq = float(radians * radians)
 
+    # Optimization: Terminate early when floating-point precision limit is reached
+    # (i.e. term becomes smaller than double-precision float resolution relative to accumulated sum).
     for idx in range(2, terms * 2, 2):
         term *= -radians_sq / (idx * (idx - 1))
-        cos_value += term
+        new_val = cos_value + term
+        if new_val == cos_value:
+            break
+        cos_value = new_val
 
     return cos_value
