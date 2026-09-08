@@ -157,7 +157,12 @@ def _select_best_branch(
     cube_root_2 = 2.0 ** (1.0 / 3.0)
     omega = complex(-0.5, 0.8660254037844386)
 
-    best_roots = None
+    best_roots: Tuple[complex, complex, complex, complex] = (
+        0j,
+        0j,
+        0j,
+        0j,
+    )
     best_error = float("inf")
 
     # Evaluate all 3 cube root branches of U to find the optimal branch
@@ -172,7 +177,7 @@ def _select_best_branch(
             best_error = err
             best_roots = roots
 
-    return best_roots  # type: ignore[return-value]
+    return best_roots
 
 
 def quartic_formula(
