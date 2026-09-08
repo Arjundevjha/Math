@@ -51,13 +51,18 @@ def partition(n: int) -> int:
     num_pos = len(pos_pentagonals)
     num_neg = len(neg_pentagonals)
 
+    next_pos = pos_pentagonals[0] if num_pos > 0 else n + 1
+    next_neg = neg_pentagonals[0] if num_neg > 0 else n + 1
+
     for i in range(1, n + 1):
-        if pos_idx < num_pos and pos_pentagonals[pos_idx] == i:
+        if i == next_pos:
             active_pos.append(i)
             pos_idx += 1
-        if neg_idx < num_neg and neg_pentagonals[neg_idx] == i:
+            next_pos = pos_pentagonals[pos_idx] if pos_idx < num_pos else n + 1
+        if i == next_neg:
             active_neg.append(i)
             neg_idx += 1
+            next_neg = neg_pentagonals[neg_idx] if neg_idx < num_neg else n + 1
 
         total = 0
         for g in active_pos:
