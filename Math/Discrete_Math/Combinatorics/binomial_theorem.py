@@ -36,15 +36,18 @@ def expand_binomial(a: str, b: str, n: int) -> str:
     if n > 1000:
         raise ValueError("Power n exceeds maximum limit of 1000.")
     
-    result = []
     # Expand using binomial theorem: (a+b)ⁿ = Σ C(n,r) × aⁿ⁻ʳ × bʳ
-    # Optimization: Compute coefficients iteratively in O(1) per term using
-    # C(n, r) = C(n, r-1) * (n - r + 1) // r, reducing total complexity to O(n).
-    coeff = 1
-    for r in range(n + 1):
-        if r > 0:
-            coeff = coeff * (n - r + 1) // r
-        term = f"{coeff}*{a}^{n - r}*{b}^{r}"
-        result.append(term)
-    
+    # Optimization: Compute coefficients up to n // 2 using iterative recurrence
+    # C(n, r) = C(n, r-1) * (n - r + 1) // r and exploit symmetry C(n, r) == C(n, n-r),
+    # halving the number of combination arithmetic operations.
+    coeffs = [0] * (n + 1)
+    coeffs[0] = 1
+    coeffs[n] = 1
+    c = 1
+    for r in range(1, n // 2 + 1):
+        c = c * (n - r + 1) // r
+        coeffs[r] = c
+        coeffs[n - r] = c
+
+    result = [f"{coeffs[r]}*{a}^{n - r}*{b}^{r}" for r in range(n + 1)]
     return " + ".join(result)

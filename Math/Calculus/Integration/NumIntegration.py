@@ -13,18 +13,19 @@ def integrate_polynomial(coefficients: List[Union[int, float]], powers: List[Uni
     Returns:
     Tuple[List[float], List[float]]: Lists of integrated coefficients and powers.
     """
-    integrated_coeffs = []
-    integrated_powers = []
-    
+    n = min(len(coefficients), len(powers))
+    sub_powers = powers[:n]
+    if -1 in sub_powers:
+        raise ValueError(
+            "Integration of x^-1 results in ln|x|, which is not supported by this polynomial integration function."
+        )
+
     # Apply integration rule: ∫(ax^n)dx = (a/(n+1))×x^(n+1) + C
-    for coeff, power in zip(coefficients, powers):
-        if power == -1:
-            raise ValueError("Integration of x^-1 results in ln|x|, which is not supported by this polynomial integration function.")
-        new_power = power + 1
-        new_coeff = coeff / new_power
-        integrated_coeffs.append(new_coeff)
-        integrated_powers.append(new_power)
-    
+    integrated_powers = [power + 1 for power in sub_powers]
+    integrated_coeffs = [
+        coeff / new_power for coeff, new_power in zip(coefficients[:n], integrated_powers)
+    ]
+
     return integrated_coeffs, integrated_powers
 
 
