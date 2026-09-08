@@ -15,8 +15,9 @@ def calculate_pi_nilakantha(terms: int = 100, precision: int = 50) -> Decimal:
     Returns:
     Decimal: The calculated value of Pi.
     """
+    MAX_TERMS = 10000
     # Security: Validate input parameters to prevent Denial of Service (DoS) via resource exhaustion
-    if not isinstance(terms, int) or isinstance(terms, bool) or terms < 1 or terms > 10000:
+    if not isinstance(terms, int) or isinstance(terms, bool) or terms < 1 or terms > MAX_TERMS:
         raise ValueError("terms must be an integer between 1 and 10000.")
     if not isinstance(precision, int) or isinstance(precision, bool) or precision < 1 or precision > 10000:
         raise ValueError("precision must be an integer between 1 and 10000.")
