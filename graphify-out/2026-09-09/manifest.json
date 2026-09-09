@@ -550,8 +550,8 @@
     "semantic_hash": "d33dae1a5fac1a831b68109d276c05a4"
   },
   "handoff.md": {
-    "mtime": 1788861633.840092,
-    "ast_hash": "5726b0e5ced3e4bbcce59863ab1f95f7",
+    "mtime": 1788736632.9533575,
+    "ast_hash": "47bbb842cf0942f4812312601c38585b",
     "semantic_hash": ""
   },
   "Math/Algebra/Abstract_Algebra_Intro/__init__.py": {
@@ -705,8 +705,8 @@
     "semantic_hash": ""
   },
   "Math/Geometry/Trigonometry/taylor_series.py": {
-    "mtime": 1788960829.9407868,
-    "ast_hash": "c366c75f00cf6ab764c4a15e2bc70de9",
+    "mtime": 1788847116.7284057,
+    "ast_hash": "ffd8ffe423fca0f4a4f78ad3939661bd",
     "semantic_hash": ""
   },
   "Math/Geometry/__init__.py": {

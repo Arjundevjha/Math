@@ -2501,7 +2501,7 @@
       "label": "cosine_taylor()",
       "file_type": "code",
       "source_file": "Math/Geometry/Trigonometry/taylor_series.py",
-      "source_location": "L36",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "math_geometry_trigonometry_taylor_series_cosine_taylor",
       "community": 10,
@@ -2523,9 +2523,9 @@
       "label": "Calculate cosine using Taylor series expansion iteratively.      Parameters:",
       "file_type": "rationale",
       "source_file": "Math/Geometry/Trigonometry/taylor_series.py",
-      "source_location": "L37",
+      "source_location": "L32",
       "_origin": "ast",
-      "id": "math_geometry_trigonometry_taylor_series_rationale_37",
+      "id": "math_geometry_trigonometry_taylor_series_rationale_32",
       "community": 10,
       "community_name": "Trigonometry Cosine Rule",
       "norm_label": "calculate cosine using taylor series expansion iteratively.      parameters:"
@@ -7839,8 +7839,8 @@
       "source_location": "L52",
       "_origin": "ast",
       "id": "tests_test_trigintegration_testtrigintegration_test_integrate_cos_full_period",
-      "community": 26,
-      "community_name": "Trigonometric Tangent Functions",
+      "community": 4,
+      "community_name": "Trigonometric Integration",
       "norm_label": ".test_integrate_cos_full_period()"
     },
     {
@@ -7894,8 +7894,8 @@
       "source_location": "L77",
       "_origin": "ast",
       "id": "tests_test_trigintegration_testtrigintegration_test_integrate_cos_fractional_bounds",
-      "community": 4,
-      "community_name": "Trigonometric Integration",
+      "community": 26,
+      "community_name": "Trigonometric Tangent Functions",
       "norm_label": ".test_integrate_cos_fractional_bounds()"
     },
     {
@@ -8015,8 +8015,8 @@
       "source_location": "L53",
       "_origin": "ast",
       "id": "tests_test_trigintegration_rationale_53",
-      "community": 26,
-      "community_name": "Trigonometric Tangent Functions",
+      "community": 4,
+      "community_name": "Trigonometric Integration",
       "norm_label": "test integral of cos(x) from 0 to 2*pi = 0"
     },
     {
@@ -8070,8 +8070,8 @@
       "source_location": "L78",
       "_origin": "ast",
       "id": "tests_test_trigintegration_rationale_78",
-      "community": 4,
-      "community_name": "Trigonometric Integration",
+      "community": 26,
+      "community_name": "Trigonometric Tangent Functions",
       "norm_label": "test integral of cos(x) from pi/6 to pi/3 = (sqrt(3)/2 - 1/2)"
     },
     {
@@ -29295,7 +29295,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "Math/Geometry/Trigonometry/taylor_series.py",
-      "source_location": "L36",
+      "source_location": "L31",
       "weight": 1.0,
       "_origin": "ast",
       "source": "math_geometry_trigonometry_taylor_series",
@@ -29388,10 +29388,10 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "Math/Geometry/Trigonometry/taylor_series.py",
-      "source_location": "L37",
+      "source_location": "L32",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "math_geometry_trigonometry_taylor_series_rationale_37",
+      "source": "math_geometry_trigonometry_taylor_series_rationale_32",
       "target": "math_geometry_trigonometry_taylor_series_cosine_taylor",
       "confidence_score": 1.0
     },
@@ -45251,5 +45251,5 @@
       "source_file": "handoff.md"
     }
   ],
-  "built_at_commit": "612ccb51f73afc3aa6bee95d26777af781d8d7dc"
+  "built_at_commit": "f9372d91090cf8df150150ad7aba6cb5bff4e1f9"
 }

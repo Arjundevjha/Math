@@ -1,7 +1,7 @@
-# Graph Report - Math-Supreme  (2026-09-09)
+# Graph Report - Math-Supreme  (2026-09-08)
 
 ## Corpus Check
-- 196 files · ~40,077 words
+- 196 files · ~39,847 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `612ccb51`
+- Built from commit: `f9372d91`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -141,7 +141,7 @@ Nodes (30): evaluate_polynomial(), Evaluate a polynomial at a given value of x. 
 
 ### Community 4 - "Trigonometric Integration"
 Cohesion: 0.10
-Nodes (11): integrate_cos(), Calculate the definite integral of cos(x) from a to b.      Parameters:     a (U, Test integral of cos(x) from pi/2 to 0 = -1, Test integral of cos(x) from pi/6 to pi/3 = (sqrt(3)/2 - 1/2), Test integral of cos(x) from pi to pi = 0, Test integral of cos(x) from 0 to pi = 0, Test integral of cos(x) over multiple periods, Test integral of cos(x) from -pi/2 to 0 = 1 (+3 more)
+Nodes (11): integrate_cos(), Calculate the definite integral of cos(x) from a to b.      Parameters:     a (U, Test integral of cos(x) from pi/2 to 0 = -1, Test integral of cos(x) from pi/6 to pi/3 = (sqrt(3)/2 - 1/2), Test integral of cos(x) from pi to pi = 0, Test integral of cos(x) from 0 to pi = 0, Test integral of cos(x) over multiple periods, Test integral of cos(x) from 0 to 2*pi = 0 (+3 more)
 
 ### Community 5 - "Factor Theorem Testing"
 Cohesion: 0.08
@@ -225,7 +225,7 @@ Nodes (14): format_polynomial(), Format a polynomial as a string.      Parameter
 
 ### Community 26 - "Trigonometric Tangent Functions"
 Cohesion: 0.11
-Nodes (10): Test integral of sin(x) from 0 to 2*pi = 0, Test integral of sin(x) from a to a = 0, Test integral of sin(x) from 0 to pi/3 = 0.5, Test integral of sin(x) from 0.5 to 1.5, Test integral of cos(x) from 0 to pi/2 = 1, Test integral of cos(x) from 0 to 2*pi = 0, Test integral of cos(x) from a to a = 0, Test integral of sin(x) from 0 to pi/2 = 1 (+2 more)
+Nodes (10): Test integral of sin(x) from 0 to 2*pi = 0, Test integral of sin(x) from a to a = 0, Test integral of sin(x) from 0 to pi/3 = 0.5, Test integral of sin(x) from 0.5 to 1.5, Test integral of cos(x) from 0 to pi/2 = 1, Test integral of cos(x) from a to a = 0, Test integral of sin(x) from 0 to pi/2 = 1, Test integral of cos(x) from pi/2 to 0 = -1 (+2 more)
 
 ### Community 27 - "Binomial Theorem"
 Cohesion: 0.43
