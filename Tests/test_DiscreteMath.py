@@ -101,6 +101,21 @@ def test_binomial_general_term_edge_cases():
         binomial_general_term(2, -1, 1, 1)
     with pytest.raises(ValueError, match="Invalid values for n and r"):
         binomial_general_term(2, 3, 1, 1)
+    # Test n < 0
+    with pytest.raises(ValueError, match="Power n must be non-negative"):
+        binomial_general_term(-1, 0, 1, 1)
+    # Test n > 1000 limit
+    with pytest.raises(ValueError, match="Power n exceeds maximum limit of 1000"):
+        binomial_general_term(1001, 1, 1, 1)
+    # Test invalid types for n and r
+    with pytest.raises(TypeError, match="n and r must be integers"):
+        binomial_general_term(2.5, 1, 1, 1)
+    with pytest.raises(TypeError, match="n and r must be integers"):
+        binomial_general_term(2, 1.5, 1, 1)
+    with pytest.raises(TypeError, match="n and r must be integers"):
+        binomial_general_term(True, 1, 1, 1)
+    with pytest.raises(TypeError, match="n and r must be integers"):
+        binomial_general_term(2, False, 1, 1)
 
 
 def test_binomial_general_term_powers():
