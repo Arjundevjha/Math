@@ -1,0 +1,3 @@
+## 2025-05-18 - Decimal series term updates via scalar integer arithmetic
+**Learning:** In `decimal.Decimal` series computations (such as Chudnovsky Pi calculation), exponentiating `Decimal` objects (e.g. `K**3`) and instantiating intermediate `Decimal(n**3)` objects inside inner loops adds heavy overhead. Native Python integers interoperate directly with `Decimal` in division/multiplication (`(M * num_int) / den_int`), avoiding `Decimal` exponentiation and object allocations.
+**Action:** Replace `Decimal` power calls and `Decimal` term instantiations inside series loops with scalar integer expressions where the terms are exact integers.
