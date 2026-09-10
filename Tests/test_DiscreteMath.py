@@ -115,6 +115,33 @@ def test_binomial_general_term_powers():
     assert binomial_general_term(3, 3, 2, 3) == 27
 
 
+def test_binomial_general_term_security():
+    """Test security validation in binomial_general_term to prevent DoS and invalid inputs."""
+    # Test invalid types for n and r
+    with pytest.raises(TypeError, match="Power n and term index r must be integers."):
+        binomial_general_term(2.5, 1, 1, 1)  # float n
+    with pytest.raises(TypeError, match="Power n and term index r must be integers."):
+        binomial_general_term(2, 1.5, 1, 1)  # float r
+    with pytest.raises(TypeError, match="Power n and term index r must be integers."):
+        binomial_general_term(True, 1, 1, 1)  # bool n
+    with pytest.raises(TypeError, match="Power n and term index r must be integers."):
+        binomial_general_term(2, True, 1, 1)  # bool r
+
+    # Test invalid types for a and b
+    with pytest.raises(TypeError, match=r"Terms a and b must be numeric \(int or float\)."):
+        binomial_general_term(2, 1, "x", 1)  # str a
+    with pytest.raises(TypeError, match=r"Terms a and b must be numeric \(int or float\)."):
+        binomial_general_term(2, 1, 1, True)  # bool b
+
+    # Test negative n
+    with pytest.raises(ValueError, match="Power n must be non-negative."):
+        binomial_general_term(-1, 0, 1, 1)
+
+    # Test upper bound limit (DoS prevention)
+    with pytest.raises(ValueError, match="Power n exceeds maximum limit of 1000."):
+        binomial_general_term(1001, 500, 1, 1)
+
+
 def test_partition_approximation_edge_cases():
     """Test edge cases for partition approximation."""
     # Test zero
