@@ -1,5 +1,6 @@
 # Taylor series approximations for trigonometric functions
 from typing import Union
+from Math.utils.math_utils import PI
 
 
 def sine_taylor(radians: Union[int, float], terms: int = 50) -> float:
@@ -17,9 +18,17 @@ def sine_taylor(radians: Union[int, float], terms: int = 50) -> float:
     if not isinstance(terms, int) or isinstance(terms, bool) or terms < 1 or terms > 10000:
         raise ValueError("terms must be an integer between 1 and 10000.")
 
-    sine_value = float(radians)
-    term = float(radians)
-    radians_sq = float(radians * radians)
+    # Range reduction: reduce angle to [-π, π] modulo 2π
+    # This prevents numerical divergence for large angles and accelerates convergence.
+    x = float(radians)
+    twopi = 2.0 * PI
+    x = x % twopi
+    if x > PI:
+        x -= twopi
+
+    sine_value = x
+    term = x
+    radians_sq = x * x
 
     # Optimization: Terminate early when floating-point precision limit is reached
     # (i.e. term becomes smaller than double-precision float resolution relative to accumulated sum).
@@ -48,9 +57,17 @@ def cosine_taylor(radians: Union[int, float], terms: int = 50) -> float:
     if not isinstance(terms, int) or isinstance(terms, bool) or terms < 1 or terms > 10000:
         raise ValueError("terms must be an integer between 1 and 10000.")
 
+    # Range reduction: reduce angle to [-π, π] modulo 2π
+    # This prevents numerical divergence for large angles and accelerates convergence.
+    x = float(radians)
+    twopi = 2.0 * PI
+    x = x % twopi
+    if x > PI:
+        x -= twopi
+
     cos_value = 1.0
     term = 1.0
-    radians_sq = float(radians * radians)
+    radians_sq = x * x
 
     # Optimization: Terminate early when floating-point precision limit is reached
     # (i.e. term becomes smaller than double-precision float resolution relative to accumulated sum).
